@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="facebook-square-brands.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   width="50"
+   height="50"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.1813397"
+     inkscape:cx="20.421856"
+     inkscape:cy="24.941894"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+  <path
+     d="m 38.696279,27.824791 1.641288,-6.860659 H 30.075474 v -4.452099 c 0,-1.876945 1.433531,-3.706504 6.029601,-3.706504 h 4.665322 V 6.9644183 c 0,0 -4.233647,-0.463498 -8.281467,-0.463498 -8.451134,0 -13.975191,3.285949 -13.975191,9.2344207 v 5.228791 H 9.1196141 v 6.860659 H 18.513739 V 44.410026 H 30.075474 V 27.824791 Z"
+     id="path2"
+     style="fill:#ffffff;stroke-width:0.092444" />
+</svg>

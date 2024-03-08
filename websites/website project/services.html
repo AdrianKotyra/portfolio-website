@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refabric</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/fancybox.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./icons/1678033188.ico">
+
+
+</head>
+
+
+<body>
+    <div class="nav_grid">
+        <div class="list_objects">
+            <p id="plastic_grid_switcher" class="active_grid_switcher" >Plastic</p>
+            <p id="wool_grid_switcher">Woolen</p>
+            <p id="wood_grid_switcher">Wood</p>
+            <p id="cotton_grid_switcher">cotton</p>
+
+
+
+        </div>
+
+
+
+    </div>
+    <div class="navigation" class="row" >
+        <div class="content" class="col-md-2">
+            <div class="logo">
+                <img src="./icons/logo_taken.jpg" alt="">
+
+
+
+             </div>
+
+            <div class="list">
+                <div class="list_content">
+
+
+                    <li ><a  href="./index.html">Home</a></li>
+                    <li ><a  href="./about.html">About us</a></li>
+                    <li ><a href="./products.html">Products</a></li>
+                    <li class="active">Services</li>
+                    <li><a href="./donate.html">Donations</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="social_icons">
+                <div class="content">
+                    <a href="">   <img class="icon" class="social_1" src="./icons/facebook.svg" alt=""></a>
+                    <a href="">    <img class="icon" class="social_2"src="./icons/linkedin.svg" alt=""></a>
+                    <a href="">  <img class="icon" class="social_3"src="./icons/instagram.svg" alt=""></a>
+                    <a href="">  <img class="icon" class="social_4"src="./icons/twitter.svg" alt=""></a>
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="product_section_background">
+        <div class="your_product_section">
+            <img class="x_to_close" src="./icons/x.svg">
+            <div class="content_create_product">
+                <div class="design_studio">
+                    <p> Custom your product</p>
+
+                    <select class="select_product" name="products">
+                        <option value="tshirt">T-shirt</option>
+                        <option value="pillow">Pillow</option>
+                        <!-- <option value="opel">Opel</option>
+                        <option value="audi">Audi</option> -->
+                    </select>
+
+                    <label for="text"> Enter your text</label>
+
+                    <textarea class="textarea_product" name="text" id="text" cols="30" rows="10" placeholder="text">
+
+
+                    </textarea>
+
+                    <input class="submit_button" type="submit" value="Submit">
+
+
+
+
+
+                </div>
+
+                <div class="tshirts_container">
+                    <p class="tshirt_text">Sample text</p>
+                    <div class="tshirts_container_display">
+
+                        <img class="white_tshirt" src="./img/t shirts/white.jpg" alt="">
+                        <img class="black_tshirt" src="./img/t shirts/black.jpg" alt="">
+                        <img class="blue_tshirt"src="./img/t shirts/blue.jpg" alt="">
+                        <img class="light_blue_tshirt" src="./img/t shirts/light blue.jpg" alt="">
+                        <img class="burgunde_tshirt" src="./img/t shirts/burgundy.jpg" alt="">
+                        <img class="grey_tshirt" src="./img/t shirts/grey.jpg" alt="">
+                        <img class="red_tshirt"src="./img/t shirts/red.jpg" alt="">
+                        <img class="yellow_tshirt" src="./img/t shirts/yellow.jpg" alt="">
+                        <img class="light_grey_tshirt" src="./img/t shirts/light grey.jpg" alt="">
+                        <img class="green_tshirt" src="./img/t shirts/green.jpg" alt="">
+                        <img class="pink_tshirt" src="./img/t shirts/pink.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="color_size_studio">
+                    <p> Edit your product</p>
+                    <h6>Colors</h6>
+                    <div class="colors_container">
+                        <div class="circle_choose" id="white_color"></div>
+                        <div class="circle_choose" id="black_color"></div>
+                        <div class="circle_choose" id="blue_color"></div>
+                        <div class="circle_choose" id="light_blue_color"></div>
+                        <div class="circle_choose" id="burgunde_color"></div>
+                        <div class="circle_choose" id="grey_color"></div>
+
+
+                    </div>
+                    <div class="colors_container2">
+
+                        <div class="circle_choose" id="red_color"></div>
+                        <div class="circle_choose" id="yellow_color"></div>
+                        <div class="circle_choose" id="light_grey_color"></div>
+                        <div class="circle_choose" id="pink_color"></div>
+                        <div class="circle_choose" id="green_color"></div>
+
+
+
+
+
+                    </div>
+                    <h6>Size and Quantity</h6>
+                    <div class="suze_number_container">
+                        <select class="select_product" name="products">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <!-- <option value="opel">Opel</option>
+                            <option value="audi">Audi</option> -->
+                        </select>
+                        <input class="select_number" type="number" placeholder="1">
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="navigation_mobile">
+        <img class="hamb" src="./icons/hamburger.svg" alt="">
+
+
+    </div>
+
+
+    <div class="navigation_mobile_open">
+        <p> <a href="./index.html">Home</a></p>
+        <p><a href="./about.html">About</a></p>
+        <p><a href="./products.html">Products</a></p>
+        <p id="active_mobile_nav"> <a id="active_mobile_nav" href="./services.html">Services</a></p>
+        <p> <a href="./donate.html">Donate clothing</a></p>
+        <p><a href="./contact.html">Contact Us</a></p>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="sections_container">
+        <div class="services_section">
+
+            <h1>Company vision and goals</h1>
+
+            <div class="services_container">
+                <div class="services_text">
+                    <h3>Our Services</h3>
+                    <p> The company offers a wide range of products made from upcycled fabrics and clothing, including pillows, rugs, and dog beds. We also offer consulting services to businesses and organizations interested in implementing sustainable practices and upcycling techniques.<br> <br>We offer:</p>
+
+                    <ul>
+                        <li>Upcycled products: Pillows, rugs, dog beds.</li>
+                        <li>Consulting services: Sustainable practices, upcycling techniques.</li>
+                        <li>Unique upcycling process: Transform waste materials.</li>
+                        <li>Environmentally friendly: Visually appealing products.</li>
+                        <li>Creating sustainable future: Innovation, new products, upcycling.</li>
+
+
+
+
+
+
+
+                    </ul>
+
+
+
+                    <button class="button_purp">Create your product</button>
+
+
+
+
+                </div>
+
+                <img src="./img/services_img.jpg" alt="">
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="ourWork_section">
+            <div class="text_work">
+                <h1>Our Work</h1>
+                <p>The company's work is focused on promoting sustainability and reducing waste through its unique upcycling process that transforms old fabrics and clothing into new and useful products</p>
+
+
+            </div>
+
+
+            <div class="cols_container">
+                <div class="col_container_services">
+                    <div class="col">
+                        <img src="./icons/service_icon (1).svg" alt="">
+                        <h3>Unique Upcycling Process</h3>
+                        <p>The company has been successful in developing a unique upcycling process that transforms waste materials into new and useful products, demonstrating their commitment to sustainability and environmental responsibility.</p>
+
+
+                    </div>
+
+                    <div class="col">
+                        <img src="./icons/service_icon (2).svg" alt="">
+                        <h3>Expansion while Staying Sustainable</h3>
+                        <p>We have expanded their product offerings and services over the years, while staying true to their core mission of promoting sustainability and reducing waste.</p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="col_container_services">
+                    <div class="col">
+                        <img src="./icons/service_icon (3).svg" alt="">
+                        <h3>Recognition for Innovative Sustainability</h3>
+                        <p>The company has been recognized for their innovative approach to sustainability and upcycling, receiving awards and recognition from various organizations and publications.</p>
+
+
+                    </div>
+
+                    <div class="col">
+                        <img src="./icons/service_icon (4).svg" alt="">
+                        <h3>Future Plans for Sustainable Impact</h3>
+                        <p>Looking to the future, the company plans to continue to innovate and expand their reach and impact around the world, with a focus on promoting sustainable practices and reducing waste in the fashion and textile industries.   </p>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="services_col_img_text">
+            <div class="two_cols_serv">
+                <div class="col_serv">
+                    <div class="img_container_services">
+                        <img src="./img/recycling.jpg" alt="">
+                        <div class="text_container_services">
+                            <h3>Recycling and Donation </h3>
+                            <h3>of Sustainable Products:</h3>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col_serv">
+                    <div class="img_container_services">
+                        <img src="./img/cloth_donation.jpg" alt="">
+                        <div class="text_container_services">
+                            <h3>Donating Clothing and Money </h3>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="contact_section">
+            <hr class="hr_all">
+            <div class="text_container">
+                <h1>Contact Us </h1><h1 class="second_h1">Today </h1>
+                <p>Send us a message, leave your feedback.</p>
+
+
+            </did>
+            <form action="">
+                <div class="top_cols">
+                    <input type="text" value="" placeholder="Name">
+                    <input type="text" value="" placeholder="Surname">
+                    <input type="text" value="" placeholder="Message">
+
+
+                </div>
+
+                <textarea name="Your message"  placeholder="Your message"></textarea>
+                <button>SEND</button>
+
+
+
+
+
+
+            </form>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <footer>
+
+        <div class="footer_container">
+
+            <div class=".container-fluid">
+                <div class="row gx-0">
+                    <div class="col-xl-3 col-sm-6" class="img-fluid">
+                        <div class="col">
+                            <p>Environmental Education Resources</p>
+                            <p>Green Energy Options</p>
+                            <p>Carbon Footprint Calculator</p>
+                            <p>Plastic-Free Alternatives</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6" class="img-fluid">
+                        <div class="col">
+                            <p>Community Recycling Programs</p>
+                            <p>Composting for Beginners</p>
+                            <p>Water Conservation Strategies</p>
+                            <p>Renewable Energy Sources</p>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6" class="img-fluid">
+                        <div class="col">
+                            <p>Upcycling Ideas and Inspiration</p>
+                            <p>Eco-Tourism Destinations</p>
+                            <p>Circular Economy Principles</p>
+                            <p>Environmental Advocacy Organizations</p>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-sm-6" class="img-fluid">
+                        <div class="col" id="logos_footer">
+                            <div class="footer_img_container">
+                                <img src="./icons/facebook.svg" alt="">
+                            </div>
+                            <div class="footer_img_container">
+                                <img src="./icons/instagram.svg" alt="">
+                            </div>
+                            <div class="footer_img_container">
+                                <img src="./icons/linkedin.svg" alt="">
+                            </div>
+                            <div class="footer_img_container">
+                                <img src="./icons/twitter.svg" alt="">
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+
+
+    <script src="./js/dataColsBlog.js"></script>
+    <script src="js/js-main.js"></script>
+
+
+    <script src="js/bootstrap.min.js"></script> <!-- local links bootstrap -->
+    <script src="./js/fancybox.js"></script>
+
+</body>
+</html>

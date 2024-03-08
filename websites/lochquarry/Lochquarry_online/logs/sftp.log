@@ -1,0 +1,698 @@
+Jun 19 11:14:13 10.71.57.0 tmp107801835-7313 Connection from 10.71.57.0 port 52198 on 82.165.88.202 port 22
+Jun 19 11:14:13 10.71.57.0 tmp107801835-7313 Accepted password for tmp107801835-7313 from 10.71.57.0 port 52198 ssh2
+Jun 19 11:14:13 10.71.57.0 tmp107801835-7313 Starting session: subsystem 'sftp' for tmp107801835-7313 from 10.71.57.0 port 52198 id 0
+Jun 19 11:14:13 10.71.57.0 tmp107801835-7313 session opened for local user tmp107801835-7313 from [10.71.57.0]
+Jun 19 11:42:56 10.71.57.0 u107801835 Connection from 10.71.57.0 port 54940 on 82.165.88.202 port 22
+Jun 19 11:42:57 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 54940 ssh2
+Jun 19 11:42:57 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 54940 id 0
+Jun 19 11:42:57 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:42:57 10.71.57.0 u107801835 sent status No such file
+Jun 19 11:44:35 10.71.57.0 u107801835 Connection from 10.71.57.0 port 55398 on 82.165.88.202 port 22
+Jun 19 11:44:35 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 55398 ssh2
+Jun 19 11:44:36 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 55398 id 0
+Jun 19 11:44:36 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:44:36 10.71.57.0 u107801835 sent status No such file
+Jun 19 11:55:02 10.71.57.0 u107801835 Connection from 10.71.57.0 port 59530 on 82.165.88.202 port 22
+Jun 19 11:55:02 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 59530 ssh2
+Jun 19 11:55:02 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 59530 id 0
+Jun 19 11:55:02 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:02 10.71.57.0 u107801835 sent status No such file
+Jun 19 11:55:03 10.71.57.0 u107801835 session closed for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:03 10.71.57.0 u107801835 Connection closed by 10.71.57.0 port 54940
+Jun 19 11:55:40 10.71.57.0 u107801835 Connection from 10.71.57.0 port 59904 on 82.165.88.202 port 22
+Jun 19 11:55:40 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 59904 ssh2
+Jun 19 11:55:40 10.71.57.0 u107801835 Connection from 10.71.57.0 port 59906 on 82.165.88.202 port 22
+Jun 19 11:55:40 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 59906 ssh2
+Jun 19 11:55:40 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 59904 id 0
+Jun 19 11:55:40 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 59906 id 0
+Jun 19 11:55:40 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:40 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/contact.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/activites.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/contact.html" bytes read 5948 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|5948|0|0|0|2f636f6e746163742e68746d6c|]
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/activites.html" bytes read 4346 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|4346|0|0|0|2f6163746976697465732e68746d6c|]
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/feedback.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/gallery.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/feedback.html" bytes read 11000 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|11000|0|0|0|2f666565646261636b2e68746d6c|]
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/gallery.html" bytes read 4857 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|4857|0|0|0|2f67616c6c6572792e68746d6c|]
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/land_activities.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 open "/index.html" flags READ mode 0666
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/land_activities.html" bytes read 6655 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|6655|0|0|0|2f6c616e645f616374697669746965732e68746d6c|]
+Jun 19 11:55:41 10.71.57.0 u107801835 close "/index.html" bytes read 16669 written 0
+Jun 19 11:55:41 10.71.57.0 u107801835 [10.71.57.0|get|0|16669|0|0|0|2f696e6465782e68746d6c|]
+Jun 19 11:55:42 10.71.57.0 u107801835 open "/rope_activites.html" flags READ mode 0666
+Jun 19 11:55:42 10.71.57.0 u107801835 open "/sftp.log" flags READ mode 0666
+Jun 19 11:55:42 10.71.57.0 u107801835 close "/rope_activites.html" bytes read 5739 written 0
+Jun 19 11:55:42 10.71.57.0 u107801835 [10.71.57.0|get|0|5739|0|0|0|2f726f70655f6163746976697465732e68746d6c|]
+Jun 19 11:55:42 10.71.57.0 u107801835 close "/sftp.log" bytes read 18603 written 0
+Jun 19 11:55:42 10.71.57.0 u107801835 [10.71.57.0|get|0|18603|0|0|0|2f736674702e6c6f67|]
+Jun 19 11:55:42 10.71.57.0 u107801835 open "/staff.html" flags READ mode 0666
+Jun 19 11:55:42 10.71.57.0 u107801835 open "/table.html" flags READ mode 0666
+Jun 19 11:55:42 10.71.57.0 u107801835 close "/staff.html" bytes read 5890 written 0
+Jun 19 11:55:42 10.71.57.0 u107801835 [10.71.57.0|get|0|5890|0|0|0|2f73746166662e68746d6c|]
+Jun 19 11:55:42 10.71.57.0 u107801835 close "/table.html" bytes read 1218 written 0
+Jun 19 11:55:42 10.71.57.0 u107801835 [10.71.57.0|get|0|1218|0|0|0|2f7461626c652e68746d6c|]
+Jun 19 11:55:42 10.71.57.0 u107801835 session closed for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:42 10.71.57.0 u107801835 Connection closed by 10.71.57.0 port 59904
+Jun 19 11:55:42 10.71.57.0 u107801835 open "/water_activities.html" flags READ mode 0666
+Jun 19 11:55:42 10.71.57.0 u107801835 close "/water_activities.html" bytes read 5454 written 0
+Jun 19 11:55:42 10.71.57.0 u107801835 [10.71.57.0|get|0|5454|0|0|0|2f77617465725f616374697669746965732e68746d6c|]
+Jun 19 11:55:42 10.71.57.0 u107801835 session closed for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:42 10.71.57.0 u107801835 Connection closed by 10.71.57.0 port 59906
+Jun 19 11:55:42 10.71.57.0 u107801835 Connection from 10.71.57.0 port 59918 on 82.165.88.202 port 22
+Jun 19 11:55:43 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 59918 ssh2
+Jun 19 11:55:43 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 59918 id 0
+Jun 19 11:55:43 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:43 10.71.57.0 u107801835 Connection from 10.71.57.0 port 59920 on 82.165.88.202 port 22
+Jun 19 11:55:43 10.71.57.0 u107801835 Accepted password for u107801835 from 10.71.57.0 port 59920 ssh2
+Jun 19 11:55:43 10.71.57.0 u107801835 Starting session: subsystem 'sftp' for u107801835 from 10.71.57.0 port 59920 id 0
+Jun 19 11:55:43 10.71.57.0 u107801835 session opened for local user u107801835 from [10.71.57.0]
+Jun 19 11:55:43 10.71.57.0 u107801835 open "/CSS/Untitled2.jpg" flags READ mode 0666
+Jun 19 11:55:43 10.71.57.0 u107801835 open "/CSS/staff_stylesheet.css" flags READ mode 0666
+Jun 19 11:55:43 10.71.57.0 u107801835 close "/CSS/Untitled2.jpg" bytes read 125360 written 0
+Jun 19 11:55:43 10.71.57.0 u107801835 [10.71.57.0|get|0|125360|0|0|0|2f4353532f556e7469746c6564322e6a7067|]
+Jun 19 11:55:43 10.71.57.0 u107801835 open "/CSS/staff_nav.jpg" flags READ mode 0666
+Jun 19 11:55:43 10.71.57.0 u107801835 close "/CSS/staff_stylesheet.css" bytes read 29766 written 0
+Jun 19 11:55:43 10.71.57.0 u107801835 [10.71.57.0|get|0|29766|0|0|0|2f4353532f73746166665f7374796c6573686565742e637373|]
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/splashing.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/staff_nav.jpg" bytes read 137942 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|1|137942|0|0|0|2f4353532f73746166665f6e61762e6a7067|]
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/roping.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/splashing.jpg" bytes read 216521 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|0|216521|0|0|0|2f4353532f73706c617368696e672e6a7067|]
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/roping.jpg" bytes read 418729 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|0|418729|0|0|0|2f4353532f726f70696e672e6a7067|]
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/robbie_img.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/power_boating.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/robbie_img.jpg" bytes read 434423 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|0|434423|0|0|0|2f4353532f726f626269655f696d672e6a7067|]
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/power_boating.jpg" bytes read 499901 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|0|499901|0|0|0|2f4353532f706f7765725f626f6174696e672e6a7067|]
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/pole-climb.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 open "/CSS/orienting.jpg" flags READ mode 0666
+Jun 19 11:55:44 10.71.57.0 u107801835 close "/CSS/pole-climb.jpg" bytes read 140468 written 0
+Jun 19 11:55:44 10.71.57.0 u107801835 [10.71.57.0|get|0|140468|0|0|0|2f4353532f706f6c652d636c696d622e6a7067|]
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/orienting.jpg" bytes read 719335 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|1|719335|0|0|0|2f4353532f6f7269656e74696e672e6a7067|]
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/mystyle.css" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/munro.jpg" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/mystyle.css" bytes read 76940 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|0|76940|0|0|0|2f4353532f6d797374796c652e637373|]
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/munro.jpg" bytes read 144076 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|0|144076|0|0|0|2f4353532f6d756e726f2e6a7067|]
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/marion.jpg" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/kayak_02.jpg" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/marion.jpg" bytes read 470610 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|0|470610|0|0|0|2f4353532f6d6172696f6e2e6a7067|]
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/kayak_02.jpg" bytes read 195771 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|0|195771|0|0|0|2f4353532f6b6179616b5f30322e6a7067|]
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/kayak_01.jpg" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 open "/CSS/kayak5.jpg" flags READ mode 0666
+Jun 19 11:55:45 10.71.57.0 u107801835 close "/CSS/kayak_01.jpg" bytes read 125506 written 0
+Jun 19 11:55:45 10.71.57.0 u107801835 [10.71.57.0|get|0|125506|0|0|0|2f4353532f6b6179616b5f30312e6a7067|]
+Jun 19 11:55:46 10.71.57.0 u107801835 close "/CSS/kayak5.jpg" bytes read 150083 written 0
+Jun 19 11:55:46 10.71.57.0 u107801835 [10.71.57.0|get|1|150083|0|0|0|2f4353532f6b6179616b352e6a7067|]
+Jun 19 11:55:46 10.71.57.0 u107801835 open "/CSS/home_nav.jpg" flags READ mode 0666
+Jun 19 11:55:46 10.71.57.0 u107801835 open "/CSS/hilwalking-group.xcf" flags READ mode 0666
+Jun 19 11:55:46 10.71.57.0 u107801835 close "/CSS/home_nav.jpg" bytes read 281044 written 0
+Jun 19 11:55:46 10.71.57.0 u107801835 [10.71.57.0|get|0|281044|0|0|0|2f4353532f686f6d655f6e61762e6a7067|]
+Jun 19 11:55:46 10.71.57.0 u107801835 open "/CSS/hilwalking-group.png" flags READ mode 0666
+Jun 19 11:55:46 10.71.57.0 u107801835 close "/CSS/hilwalking-group.xcf" bytes read 1420302 written 0
+Jun 19 11:55:46 10.71.57.0 u107801835 [10.71.57.0|get|0|1420302|0|0|0|2f4353532f68696c77616c6b696e672d67726f75702e786366|]
+Jun 19 11:55:46 10.71.57.0 u107801835 open "/CSS/hilwalking-group.jpg" flags READ mode 0666
+Jun 19 11:55:46 10.71.57.0 u107801835 close "/CSS/hilwalking-group.png" bytes read 635028 written 0
+Jun 19 11:55:46 10.71.57.0 u107801835 [10.71.57.0|get|0|635028|0|0|0|2f4353532f68696c77616c6b696e672d67726f75702e706e67|]
+Jun 19 11:55:46 10.71.57.0 u107801835 open "/CSS/group.jpg" flags READ mode 0666
+Jun 19 11:55:46 10.71.57.0 u107801835 close "/CSS/hilwalking-group.jpg" bytes read 864943 written 0
+Jun 19 11:55:46 10.71.57.0 u107801835 [10.71.57.0|get|0|864943|0|0|0|2f4353532f68696c77616c6b696e672d67726f75702e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/gallery_stylesheet.css" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/group.jpg" bytes read 704628 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|1|704628|0|0|0|2f4353532f67726f75702e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/gallery_stylesheet.css" bytes read 9603 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|0|9603|0|0|0|2f4353532f67616c6c6572795f7374796c6573686565742e637373|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/gallery_nav.jpg" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/feedback_nav.jpg" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/gallery_nav.jpg" bytes read 372884 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|0|372884|0|0|0|2f4353532f67616c6c6572795f6e61762e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/contact_nav.jpg" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/feedback_nav.jpg" bytes read 376164 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|0|376164|0|0|0|2f4353532f666565646261636b5f6e61762e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/climbing2.jpg" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/contact_nav.jpg" bytes read 290410 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|0|290410|0|0|0|2f4353532f636f6e746163745f6e61762e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/climbing.jpg" flags READ mode 0666
+Jun 19 11:55:47 10.71.57.0 u107801835 close "/CSS/climbing2.jpg" bytes read 786872 written 0
+Jun 19 11:55:47 10.71.57.0 u107801835 [10.71.57.0|get|0|786872|0|0|0|2f4353532f636c696d62696e67322e6a7067|]
+Jun 19 11:55:47 10.71.57.0 u107801835 open "/CSS/claire.jpg" flags READ mode 0666
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/climbing.jpg" bytes read 223428 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|0|223428|0|0|0|2f4353532f636c696d62696e672e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/claire.jpg" bytes read 307353 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|1|307353|0|0|0|2f4353532f636c616972652e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 open "/CSS/Canoeing.jpg" flags READ mode 0666
+Jun 19 11:55:48 10.71.57.0 u107801835 open "/CSS/axe.jpg" flags READ mode 0666
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/Canoeing.jpg" bytes read 176625 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|0|176625|0|0|0|2f4353532f43616e6f65696e672e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/axe.jpg" bytes read 604325 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|0|604325|0|0|0|2f4353532f6178652e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 open "/CSS/archery.jpg" flags READ mode 0666
+Jun 19 11:55:48 10.71.57.0 u107801835 open "/CSS/activites_nav.jpg" flags READ mode 0666
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/archery.jpg" bytes read 173018 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|0|173018|0|0|0|2f4353532f617263686572792e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 close "/CSS/activites_nav.jpg" bytes read 58805 written 0
+Jun 19 11:55:48 10.71.57.0 u107801835 [10.71.57.0|get|0|58805|0|0|0|2f4353532f6163746976697465735f6e61762e6a7067|]
+Jun 19 11:55:48 10.71.57.0 u107801835 open "/CSS/abseiling.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 open "/IMG/staff_top_banner.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/CSS/abseiling.jpg" bytes read 1034329 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|1|1034329|0|0|0|2f4353532f61627365696c696e672e6a7067|]
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/IMG/staff_top_banner.jpg" bytes read 303757 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|0|303757|0|0|0|2f494d472f73746166665f746f705f62616e6e65722e6a7067|]
+Jun 19 11:55:49 10.71.57.0 u107801835 open "/IMG/robbie_img.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 open "/IMG/staff_nav.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/IMG/robbie_img.jpg" bytes read 434423 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|0|434423|0|0|0|2f494d472f726f626269655f696d672e6a7067|]
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/IMG/staff_nav.jpg" bytes read 137942 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|0|137942|0|0|0|2f494d472f73746166665f6e61762e6a7067|]
+Jun 19 11:55:49 10.71.57.0 u107801835 open "/IMG/robbie.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 open "/IMG/orienteering.jpg" flags READ mode 0666
+Jun 19 11:55:49 10.71.57.0 u107801835 sent status No such file
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/IMG/orienteering.jpg" bytes read 291715 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|0|291715|0|0|0|2f494d472f6f7269656e74656572696e672e6a7067|]
+Jun 19 11:55:49 10.71.57.0 u107801835 close "/IMG/robbie.jpg" bytes read 679044 written 0
+Jun 19 11:55:49 10.71.57.0 u107801835 [10.71.57.0|get|0|679044|0|0|0|2f494d472f726f626269652e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/munro.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/marion.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/munro.jpg" bytes read 145719 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|145719|0|0|0|2f494d472f6d756e726f2e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/marion.jpg" bytes read 449049 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|449049|0|0|0|2f494d472f6d6172696f6e2e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/loc_loch.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/landscape_01.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/loc_loch.jpg" bytes read 79840 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|79840|0|0|0|2f494d472f6c6f635f6c6f63682e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/landscape_01.jpg" bytes read 80331 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|80331|0|0|0|2f494d472f6c616e6473636170655f30312e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/landscape.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 open "/IMG/kayak_02.jpg" flags READ mode 0666
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/kayak_02.jpg" bytes read 188501 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|188501|0|0|0|2f494d472f6b6179616b5f30322e6a7067|]
+Jun 19 11:55:50 10.71.57.0 u107801835 close "/IMG/landscape.jpg" bytes read 2228175 written 0
+Jun 19 11:55:50 10.71.57.0 u107801835 [10.71.57.0|get|0|2228175|0|0|0|2f494d472f6c616e6473636170652e6a7067|]
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/kayak5.jpg" flags READ mode 0666
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/hilwalking-group.jpg" flags READ mode 0666
+Jun 19 11:55:51 10.71.57.0 u107801835 close "/IMG/kayak5.jpg" bytes read 2254741 written 0
+Jun 19 11:55:51 10.71.57.0 u107801835 [10.71.57.0|get|0|2254741|0|0|0|2f494d472f6b6179616b352e6a7067|]
+Jun 19 11:55:51 10.71.57.0 u107801835 close "/IMG/hilwalking-group.jpg" bytes read 864943 written 0
+Jun 19 11:55:51 10.71.57.0 u107801835 [10.71.57.0|get|0|864943|0|0|0|2f494d472f68696c77616c6b696e672d67726f75702e6a7067|]
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/group.jpg" flags READ mode 0666
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/gallery_nav.jpg" flags READ mode 0666
+Jun 19 11:55:51 10.71.57.0 u107801835 close "/IMG/gallery_nav.jpg" bytes read 372884 written 0
+Jun 19 11:55:51 10.71.57.0 u107801835 [10.71.57.0|get|0|372884|0|0|0|2f494d472f67616c6c6572795f6e61762e6a7067|]
+Jun 19 11:55:51 10.71.57.0 u107801835 close "/IMG/group.jpg" bytes read 704628 written 0
+Jun 19 11:55:51 10.71.57.0 u107801835 [10.71.57.0|get|0|704628|0|0|0|2f494d472f67726f75702e6a7067|]
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/feedback_nav.jpg" flags READ mode 0666
+Jun 19 11:55:51 10.71.57.0 u107801835 open "/IMG/deer.jpg" flags READ mode 0666
+Jun 19 11:55:52 10.71.57.0 u107801835 close "/IMG/feedback_nav.jpg" bytes read 376164 written 0
+Jun 19 11:55:52 10.71.57.0 u107801835 [10.71.57.0|get|1|376164|0|0|0|2f494d472f666565646261636b5f6e61762e6a7067|]
+Jun 19 11:55:52 10.71.57.0 u107801835 close "/IMG/deer.jpg" bytes read 354064 written 0
+Jun 19 11:55:52 10.71.57.0 u107801835 [10.71.57.0|get|1|354064|0|0|0|2f494d472f646565722e6a7067|]
+Jun 19 11:55:52 10.71.57.0 u107801835 open "/IMG/claire.jpg" flags READ mode 0666
+Jun 19 11:55:52 10.71.57.0 u107801835 open "/IMG/bottom_banner_staff.jpg" flags READ mode 0666
+Jun 19 11:55:52 10.71.57.0 u107801835 close "/IMG/bottom_banner_staff.jpg" bytes read 116101 written 0
+Jun 19 11:55:52 10.71.57.0 u107801835 [10.71.57.0|get|0|116101|0|0|0|2f494d472f626f74746f6d5f62616e6e65725f73746166662e6a7067|]
+Jun 19 11:55:52 10.71.57.0 u107801835 open "/IMG/activites_nav.jpg" flags READ mode 0666
+Jun 19 11:55:52 10.71.57.0 u107801835 close "/IMG/activites_nav.jpg" bytes read 58805 written 0
+Jun 19 11:55:52 10.71.57.0 u107801835 [10.71.57.0|get|0|58805|0|0|0|2f494d472f6163746976697465735f6e61762e6a7067|]
+Jun 19 11:55:53 10.71.57.0 u107801835 close "/IMG/claire.jpg" bytes read 5502635 written 0
+Jun 19 11:55:53 10.71.57.0 u107801835 [10.71.57.0|get|1|5502635|0|0|0|2f494d472f636c616972652e6a7067|]
+Jun 19 11:55:53 10.71.57.0 u107801835 open "/IMG/activities_banner/pexels-karolina-grabowska-4709448.jpg" flags READ mode 0666
+Jun 19 11:55:53 10.71.57.0 u107801835 open "/IMG/activities_banner/img2.jpg" flags READ mode 0666
+Jun 19 11:55:53 10.71.57.0 u107801835 close "/IMG/activities_banner/img2.jpg" bytes read 1312604 written 0
+Jun 19 11:55:53 10.71.57.0 u107801835 [10.71.57.0|get|0|1312604|0|0|0|2f494d472f616374697669746965735f62616e6e65722f696d67322e6a7067|]
+Jun 19 11:55:53 10.71.57.0 u107801835 close "/IMG/activities_banner/pexels-karolina-grabowska-4709448.jpg" bytes read 5132601 written 0
+Jun 19 11:55:53 10.71.57.0 u107801835 [10.71.57.0|get|0|5132601|0|0|0|2f494d472f616374697669746965735f62616e6e65722f706578656c732d6b61726f6c696e612d677261626f77736b612d343730393434382e6a7067|]
+Jun 19 11:55:53 10.71.57.0 u107801835 open "/IMG/activities_banner/img1.jpg" flags READ mode 0666
+Jun 19 11:55:54 10.71.57.0 u107801835 open "/IMG/activities_banner/gfdgfd.jpg" flags READ mode 0666
+Jun 19 11:55:54 10.71.57.0 u107801835 close "/IMG/activities_banner/img1.jpg" bytes read 3013004 written 0
+Jun 19 11:55:54 10.71.57.0 u107801835 [10.71.57.0|get|1|3013004|0|0|0|2f494d472f616374697669746965735f62616e6e65722f696d67312e6a7067|]
+Jun 19 11:55:54 10.71.57.0 u107801835 close "/IMG/activities_banner/gfdgfd.jpg" bytes read 5132601 written 0
+Jun 19 11:55:54 10.71.57.0 u107801835 [10.71.57.0|get|0|5132601|0|0|0|2f494d472f616374697669746965735f62616e6e65722f6766646766642e6a7067|]
+Jun 19 11:55:54 10.71.57.0 u107801835 open "/IMG/activities_banner/fdsfds.jpg" flags READ mode 0666
+Jun 19 11:55:55 10.71.57.0 u107801835 close "/IMG/activities_banner/fdsfds.jpg" bytes read 2615061 written 0
+Jun 19 11:55:55 10.71.57.0 u107801835 [10.71.57.0|get|1|2615061|0|0|0|2f494d472f616374697669746965735f62616e6e65722f6664736664732e6a7067|]
+Jun 19 11:55:55 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/walking.jpg" flags READ mode 0666
+Jun 19 11:55:55 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/pole-climb.jpg" flags READ mode 0666
+Jun 19 11:55:55 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/walking.jpg" bytes read 206857 written 0
+Jun 19 11:55:55 10.71.57.0 u107801835 [10.71.57.0|get|0|206857|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f77616c6b696e672e6a7067|]
+Jun 19 11:55:55 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/pole-climb.jpg" bytes read 173582 written 0
+Jun 19 11:55:55 10.71.57.0 u107801835 [10.71.57.0|get|0|173582|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f706f6c652d636c696d622e6a7067|]
+Jun 19 11:55:55 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/orienting.jpg" flags READ mode 0666
+Jun 19 11:55:55 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/kayak_02.jpg" flags READ mode 0666
+Jun 19 11:55:55 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/orienting.jpg" bytes read 785153 written 0
+Jun 19 11:55:55 10.71.57.0 u107801835 [10.71.57.0|get|0|785153|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6f7269656e74696e672e6a7067|]
+Jun 19 11:55:55 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/kayak_02.jpg" bytes read 97752 written 0
+Jun 19 11:55:55 10.71.57.0 u107801835 [10.71.57.0|get|0|97752|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6b6179616b5f30322e6a7067|]
+Jun 19 11:55:55 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/kayak6.jpg" flags READ mode 0666
+Jun 19 11:55:56 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/kayak5.jpg" flags READ mode 0666
+Jun 19 11:55:56 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/kayak6.jpg" bytes read 83510 written 0
+Jun 19 11:55:56 10.71.57.0 u107801835 [10.71.57.0|get|1|83510|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6b6179616b362e6a7067|]
+Jun 19 11:55:56 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/kayak5.jpg" bytes read 2340597 written 0
+Jun 19 11:55:56 10.71.57.0 u107801835 [10.71.57.0|get|0|2340597|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6b6179616b352e6a7067|]
+Jun 19 11:55:56 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/kayak3.jpg" flags READ mode 0666
+Jun 19 11:55:56 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/hilwalking-group.jpg" flags READ mode 0666
+Jun 19 11:55:56 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/kayak3.jpg" bytes read 202194 written 0
+Jun 19 11:55:56 10.71.57.0 u107801835 [10.71.57.0|get|0|202194|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6b6179616b332e6a7067|]
+Jun 19 11:55:56 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/hilwalking-group.jpg" bytes read 864943 written 0
+Jun 19 11:55:56 10.71.57.0 u107801835 [10.71.57.0|get|0|864943|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f68696c77616c6b696e672d67726f75702e6a7067|]
+Jun 19 11:55:56 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/group.jpg" flags READ mode 0666
+Jun 19 11:55:56 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/climbing2.jpg" flags READ mode 0666
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/group.jpg" bytes read 704628 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|1|704628|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f67726f75702e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/climbing2.jpg" bytes read 786872 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|1|786872|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f636c696d62696e67322e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/climbing.jpg" flags READ mode 0666
+Jun 19 11:55:57 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/climb1.jpg" flags READ mode 0666
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/climb1.jpg" bytes read 1411429 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|0|1411429|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f636c696d62312e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/climbing.jpg" bytes read 255079 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|0|255079|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f636c696d62696e672e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/axe.jpg" flags READ mode 0666
+Jun 19 11:55:57 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/archery.jpg" flags READ mode 0666
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/axe.jpg" bytes read 690704 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|0|690704|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6178652e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/archery.jpg" bytes read 171112 written 0
+Jun 19 11:55:57 10.71.57.0 u107801835 [10.71.57.0|get|0|171112|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f617263686572792e6a7067|]
+Jun 19 11:55:57 10.71.57.0 u107801835 open "/IMG/activities_slider_imgs/activites_nav.jpg" flags READ mode 0666
+Jun 19 11:55:58 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/tretre.jpg" flags READ mode 0666
+Jun 19 11:55:58 10.71.57.0 u107801835 close "/IMG/activities_slider_imgs/activites_nav.jpg" bytes read 60506 written 0
+Jun 19 11:55:58 10.71.57.0 u107801835 [10.71.57.0|get|1|60506|0|0|0|2f494d472f616374697669746965735f736c696465725f696d67732f6163746976697465735f6e61762e6a7067|]
+Jun 19 11:55:58 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/gfgfd.jpg" flags READ mode 0666
+Jun 19 11:55:58 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/tretre.jpg" bytes read 2004359 written 0
+Jun 19 11:55:58 10.71.57.0 u107801835 [10.71.57.0|get|0|2004359|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f7472657472652e6a7067|]
+Jun 19 11:55:58 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/gfdgfd.jpg" flags READ mode 0666
+Jun 19 11:55:58 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/gfgfd.jpg" bytes read 406268 written 0
+Jun 19 11:55:58 10.71.57.0 u107801835 [10.71.57.0|get|0|406268|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f67666766642e6a7067|]
+Jun 19 11:55:58 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/ddd.jpg" flags READ mode 0666
+Jun 19 11:55:58 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/gfdgfd.jpg" bytes read 850862 written 0
+Jun 19 11:55:58 10.71.57.0 u107801835 [10.71.57.0|get|0|850862|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f6766646766642e6a7067|]
+Jun 19 11:55:58 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background8.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/ddd.jpg" bytes read 1116595 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|1|1116595|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f6464642e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background8.jpg" bytes read 405895 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|1|405895|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64382e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background7.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background6.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background7.jpg" bytes read 299306 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|0|299306|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64372e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background6.jpg" bytes read 101142 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|0|101142|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64362e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background5.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background4.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background5.jpg" bytes read 243725 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|0|243725|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64352e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background4.jpg" bytes read 248852 written 0
+Jun 19 11:55:59 10.71.57.0 u107801835 [10.71.57.0|get|0|248852|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64342e6a7067|]
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background3.jpg" flags READ mode 0666
+Jun 19 11:55:59 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/contact_background.jpg" flags READ mode 0666
+Jun 19 11:56:00 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background3.jpg" bytes read 3206159 written 0
+Jun 19 11:56:00 10.71.57.0 u107801835 [10.71.57.0|get|1|3206159|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e64332e6a7067|]
+Jun 19 11:56:00 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/contact_background.jpg" bytes read 833878 written 0
+Jun 19 11:56:00 10.71.57.0 u107801835 [10.71.57.0|get|1|833878|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f636f6e746163745f6261636b67726f756e642e6a7067|]
+Jun 19 11:56:00 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/4.jpg" flags READ mode 0666
+Jun 19 11:56:00 10.71.57.0 u107801835 open "/IMG/contact_slider_bottom/3.jpg" flags READ mode 0666
+Jun 19 11:56:00 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/3.jpg" bytes read 1093087 written 0
+Jun 19 11:56:00 10.71.57.0 u107801835 [10.71.57.0|get|0|1093087|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f332e6a7067|]
+Jun 19 11:56:01 10.71.57.0 u107801835 close "/IMG/contact_slider_bottom/4.jpg" bytes read 4695442 written 0
+Jun 19 11:56:01 10.71.57.0 u107801835 [10.71.57.0|get|1|4695442|0|0|0|2f494d472f636f6e746163745f736c696465725f626f74746f6d2f342e6a7067|]
+Jun 19 11:56:01 10.71.57.0 u107801835 open "/IMG/contact_slider_imgs/img3.jpg" flags READ mode 0666
+Jun 19 11:56:01 10.71.57.0 u107801835 open "/IMG/contact_slider_imgs/img1.jpg" flags READ mode 0666
+Jun 19 11:56:01 10.71.57.0 u107801835 close "/IMG/contact_slider_imgs/img3.jpg" bytes read 231385 written 0
+Jun 19 11:56:01 10.71.57.0 u107801835 [10.71.57.0|get|0|231385|0|0|0|2f494d472f636f6e746163745f736c696465725f696d67732f696d67332e6a7067|]
+Jun 19 11:56:01 10.71.57.0 u107801835 close "/IMG/contact_slider_imgs/img1.jpg" bytes read 218704 written 0
+Jun 19 11:56:01 10.71.57.0 u107801835 [10.71.57.0|get|0|218704|0|0|0|2f494d472f636f6e746163745f736c696465725f696d67732f696d67312e6a7067|]
+Jun 19 11:56:01 10.71.57.0 u107801835 open "/IMG/feedback_slider_imgs/feedback4.jpg" flags READ mode 0666
+Jun 19 11:56:01 10.71.57.0 u107801835 open "/IMG/feedback_slider_imgs/feedback3.jpg" flags READ mode 0666
+Jun 19 11:56:01 10.71.57.0 u107801835 close "/IMG/feedback_slider_imgs/feedback3.jpg" bytes read 98459 written 0
+Jun 19 11:56:01 10.71.57.0 u107801835 [10.71.57.0|get|0|98459|0|0|0|2f494d472f666565646261636b5f736c696465725f696d67732f666565646261636b332e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 open "/IMG/feedback_slider_imgs/feedback2.jpg" flags READ mode 0666
+Jun 19 11:56:02 10.71.57.0 u107801835 close "/IMG/feedback_slider_imgs/feedback2.jpg" bytes read 144262 written 0
+Jun 19 11:56:02 10.71.57.0 u107801835 [10.71.57.0|get|0|144262|0|0|0|2f494d472f666565646261636b5f736c696465725f696d67732f666565646261636b322e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 open "/IMG/feedback_slider_imgs/feedback1.jpg" flags READ mode 0666
+Jun 19 11:56:02 10.71.57.0 u107801835 close "/IMG/feedback_slider_imgs/feedback4.jpg" bytes read 2814972 written 0
+Jun 19 11:56:02 10.71.57.0 u107801835 [10.71.57.0|get|1|2814972|0|0|0|2f494d472f666565646261636b5f736c696465725f696d67732f666565646261636b342e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 close "/IMG/feedback_slider_imgs/feedback1.jpg" bytes read 213554 written 0
+Jun 19 11:56:02 10.71.57.0 u107801835 [10.71.57.0|get|0|213554|0|0|0|2f494d472f666565646261636b5f736c696465725f696d67732f666565646261636b312e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 open "/IMG/Gallery/tretre.jpg" flags READ mode 0666
+Jun 19 11:56:02 10.71.57.0 u107801835 open "/IMG/Gallery/orienteering.jpg" flags READ mode 0666
+Jun 19 11:56:02 10.71.57.0 u107801835 close "/IMG/Gallery/tretre.jpg" bytes read 185920 written 0
+Jun 19 11:56:02 10.71.57.0 u107801835 [10.71.57.0|get|0|185920|0|0|0|2f494d472f47616c6c6572792f7472657472652e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 close "/IMG/Gallery/orienteering.jpg" bytes read 291537 written 0
+Jun 19 11:56:02 10.71.57.0 u107801835 [10.71.57.0|get|0|291537|0|0|0|2f494d472f47616c6c6572792f6f7269656e74656572696e672e6a7067|]
+Jun 19 11:56:02 10.71.57.0 u107801835 open "/IMG/Gallery/munro.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/misc.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/munro.jpg" bytes read 144076 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|1|144076|0|0|0|2f494d472f47616c6c6572792f6d756e726f2e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/misc.jpg" bytes read 277983 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|0|277983|0|0|0|2f494d472f47616c6c6572792f6d6973632e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/landscape_03.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/landscape_02.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/landscape_03.jpg" bytes read 215246 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|0|215246|0|0|0|2f494d472f47616c6c6572792f6c616e6473636170655f30332e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/landscape_02.jpg" bytes read 299179 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|0|299179|0|0|0|2f494d472f47616c6c6572792f6c616e6473636170655f30322e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/landscape_01.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/kayak_02.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/landscape_01.jpg" bytes read 204879 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|0|204879|0|0|0|2f494d472f47616c6c6572792f6c616e6473636170655f30312e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 close "/IMG/Gallery/kayak_02.jpg" bytes read 188501 written 0
+Jun 19 11:56:03 10.71.57.0 u107801835 [10.71.57.0|get|0|188501|0|0|0|2f494d472f47616c6c6572792f6b6179616b5f30322e6a7067|]
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/kayak_01.jpg" flags READ mode 0666
+Jun 19 11:56:03 10.71.57.0 u107801835 open "/IMG/Gallery/hilwalking-group.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/kayak_01.jpg" bytes read 184511 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|1|184511|0|0|0|2f494d472f47616c6c6572792f6b6179616b5f30312e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/hilwalking-group.jpg" bytes read 128875 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|1|128875|0|0|0|2f494d472f47616c6c6572792f68696c77616c6b696e672d67726f75702e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/hillwalking.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/hills.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/hillwalking.jpg" bytes read 340587 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|0|340587|0|0|0|2f494d472f47616c6c6572792f68696c6c77616c6b696e672e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/hills.jpg" bytes read 135999 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|0|135999|0|0|0|2f494d472f47616c6c6572792f68696c6c732e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/highlandcoo.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/group.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/group.jpg" bytes read 478075 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|0|478075|0|0|0|2f494d472f47616c6c6572792f67726f75702e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/highlandcoo.jpg" bytes read 845394 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|0|845394|0|0|0|2f494d472f47616c6c6572792f686967686c616e64636f6f2e6a7067|]
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/deer.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 open "/IMG/Gallery/contact_background8.jpg" flags READ mode 0666
+Jun 19 11:56:04 10.71.57.0 u107801835 close "/IMG/Gallery/deer.jpg" bytes read 227714 written 0
+Jun 19 11:56:04 10.71.57.0 u107801835 [10.71.57.0|get|0|227714|0|0|0|2f494d472f47616c6c6572792f646565722e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/contact_background7.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/contact_background8.jpg" bytes read 339633 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|1|339633|0|0|0|2f494d472f47616c6c6572792f636f6e746163745f6261636b67726f756e64382e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/contact_background6.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/contact_background7.jpg" bytes read 299306 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|0|299306|0|0|0|2f494d472f47616c6c6572792f636f6e746163745f6261636b67726f756e64372e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/contact_background6.jpg" bytes read 193573 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|0|193573|0|0|0|2f494d472f47616c6c6572792f636f6e746163745f6261636b67726f756e64362e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/contact_background5.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/contact_background4.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/contact_background5.jpg" bytes read 271675 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|0|271675|0|0|0|2f494d472f47616c6c6572792f636f6e746163745f6261636b67726f756e64352e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/contact_background4.jpg" bytes read 406268 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|0|406268|0|0|0|2f494d472f47616c6c6572792f636f6e746163745f6261636b67726f756e64342e6a7067|]
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/climbing.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 open "/IMG/Gallery/caonoe.jpg" flags READ mode 0666
+Jun 19 11:56:05 10.71.57.0 u107801835 close "/IMG/Gallery/climbing.jpg" bytes read 255079 written 0
+Jun 19 11:56:05 10.71.57.0 u107801835 [10.71.57.0|get|0|255079|0|0|0|2f494d472f47616c6c6572792f636c696d62696e672e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/ag.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/caonoe.jpg" bytes read 350759 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|1|350759|0|0|0|2f494d472f47616c6c6572792f63616f6e6f652e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/ag.jpg" bytes read 305928 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|0|305928|0|0|0|2f494d472f47616c6c6572792f61672e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/af.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/ae.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/af.jpg" bytes read 245695 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|0|245695|0|0|0|2f494d472f47616c6c6572792f61662e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/ae.jpg" bytes read 418396 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|0|418396|0|0|0|2f494d472f47616c6c6572792f61652e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/ad.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/ac.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/ad.jpg" bytes read 313819 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|0|313819|0|0|0|2f494d472f47616c6c6572792f61642e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 close "/IMG/Gallery/ac.jpg" bytes read 318213 written 0
+Jun 19 11:56:06 10.71.57.0 u107801835 [10.71.57.0|get|0|318213|0|0|0|2f494d472f47616c6c6572792f61632e6a7067|]
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/ab.jpg" flags READ mode 0666
+Jun 19 11:56:06 10.71.57.0 u107801835 open "/IMG/Gallery/aa.jpg" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/Gallery/ab.jpg" bytes read 305725 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|1|305725|0|0|0|2f494d472f47616c6c6572792f61622e6a7067|]
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/Gallery/aa.jpg" bytes read 253604 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|1|253604|0|0|0|2f494d472f47616c6c6572792f61612e6a7067|]
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/flagblack.png" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/flag.jpg" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/icons/flagblack.png" bytes read 14440 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|0|14440|0|0|0|2f494d472f69636f6e732f666c6167626c61636b2e706e67|]
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/icons/flag.jpg" bytes read 24409 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|0|24409|0|0|0|2f494d472f69636f6e732f666c61672e6a7067|]
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/bars-solid2.svg" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/bars-solid.svg" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/icons/bars-solid2.svg" bytes read 2051 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|0|2051|0|0|0|2f494d472f69636f6e732f626172732d736f6c6964322e737667|]
+Jun 19 11:56:07 10.71.57.0 u107801835 close "/IMG/icons/bars-solid.svg" bytes read 2132 written 0
+Jun 19 11:56:07 10.71.57.0 u107801835 [10.71.57.0|get|0|2132|0|0|0|2f494d472f69636f6e732f626172732d736f6c69642e737667|]
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/facebook-f-brands.svg" flags READ mode 0666
+Jun 19 11:56:07 10.71.57.0 u107801835 open "/IMG/icons/twitter-brands.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/facebook-f-brands.svg" bytes read 389 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|1|389|0|0|0|2f494d472f69636f6e732f66616365626f6f6b2d662d6272616e64732e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/twitter-brands.svg" bytes read 2409 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|1|2409|0|0|0|2f494d472f69636f6e732f747769747465722d6272616e64732e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/star-solid.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/readme-brands.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/star-solid.svg" bytes read 991 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|991|0|0|0|2f494d472f69636f6e732f737461722d736f6c69642e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/readme-brands.svg" bytes read 2227 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|2227|0|0|0|2f494d472f69636f6e732f726561646d652d6272616e64732e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/phone-solid.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/lq logo 7.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/phone-solid.svg" bytes read 919 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|919|0|0|0|2f494d472f69636f6e732f70686f6e652d736f6c69642e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/lq logo 7.svg" bytes read 9343 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|9343|0|0|0|2f494d472f69636f6e732f6c71206c6f676f20372e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/linkedin-brands.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/instagram-brands.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/linkedin-brands.svg" bytes read 4673 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|4673|0|0|0|2f494d472f69636f6e732f6c696e6b6564696e2d6272616e64732e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 close "/IMG/icons/instagram-brands.svg" bytes read 3428 written 0
+Jun 19 11:56:08 10.71.57.0 u107801835 [10.71.57.0|get|0|3428|0|0|0|2f494d472f69636f6e732f696e7374616772616d2d6272616e64732e737667|]
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/favicon_logo.svg" flags READ mode 0666
+Jun 19 11:56:08 10.71.57.0 u107801835 open "/IMG/icons/favicon.png" flags READ mode 0666
+Jun 19 11:56:09 10.71.57.0 u107801835 close "/IMG/icons/favicon_logo.svg" bytes read 11202 written 0
+Jun 19 11:56:09 10.71.57.0 u107801835 [10.71.57.0|get|1|11202|0|0|0|2f494d472f69636f6e732f66617669636f6e5f6c6f676f2e737667|]
+Jun 19 11:56:09 10.71.57.0 u107801835 close "/IMG/icons/favicon.png" bytes read 6420 written 0
+Jun 19 11:56:09 10.71.57.0 u107801835 [10.71.57.0|get|1|6420|0|0|0|2f494d472f69636f6e732f66617669636f6e2e706e67|]
+Jun 19 11:56:09 10.71.57.0 u107801835 open "/IMG/icons/facebook-square-brandsg.svg" flags READ mode 0666
+Jun 19 11:56:09 10.71.57.0 u107801835 open "/IMG/icons/envelope-solid.svg" flags READ mode 0666
+Jun 19 11:56:09 10.71.57.0 u107801835 close "/IMG/icons/facebook-square-brandsg.svg" bytes read 1024 written 0
+Jun 19 11:56:09 10.71.57.0 u107801835 [10.71.57.0|get|0|1024|0|0|0|2f494d472f69636f6e732f66616365626f6f6b2d7371756172652d6272616e6473672e737667|]
+Jun 19 11:56:09 10.71.57.0 u107801835 close "/IMG/icons/envelope-solid.svg" bytes read 859 written 0
+Jun 19 11:56:09 10.71.57.0 u107801835 [10.71.57.0|get|0|859|0|0|0|2f494d472f69636f6e732f656e76656c6f70652d736f6c69642e737667|]
+Jun 19 11:56:09 10.71.57.0 u107801835 open "/IMG/icons/facebook-square-brands.svg" flags READ mode 0666
+Jun 19 11:56:09 10.71.57.0 u107801835 close "/IMG/icons/facebook-square-brands.svg" bytes read 1566 written 0
+Jun 19 11:56:09 10.71.57.0 u107801835 [10.71.57.0|get|0|1566|0|0|0|2f494d472f69636f6e732f66616365626f6f6b2d7371756172652d6272616e64732e737667|]
+Jun 19 11:56:09 10.71.57.0 u107801835 open "/IMG/IMG RAW/staff_top_banner.jpg" flags READ mode 0666
+Jun 19 11:56:09 10.71.57.0 u107801835 open "/IMG/IMG RAW/robbie.jpg" flags READ mode 0666
+Jun 19 11:56:10 10.71.57.0 u107801835 close "/IMG/IMG RAW/staff_top_banner.jpg" bytes read 3946095 written 0
+Jun 19 11:56:10 10.71.57.0 u107801835 [10.71.57.0|get|1|3946095|0|0|0|2f494d472f494d47205241572f73746166665f746f705f62616e6e65722e6a7067|]
+Jun 19 11:56:10 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-\320\260\320\275\320\275\320\260-\321\200\321\213\320\266\320\272\320\276\320\262\320\260-3077882.jpg" flags READ mode 0666
+Jun 19 11:56:10 10.71.57.0 u107801835 close "/IMG/IMG RAW/robbie.jpg" bytes read 2314682 written 0
+Jun 19 11:56:10 10.71.57.0 u107801835 [10.71.57.0|get|1|2314682|0|0|0|2f494d472f494d47205241572f726f626269652e6a7067|]
+Jun 19 11:56:10 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-\320\260\320\275\320\275\320\260-\321\200\321\213\320\266\320\272\320\276\320\262\320\260-3077882.jpg" bytes read 1084857 written 0
+Jun 19 11:56:10 10.71.57.0 u107801835 [10.71.57.0|get|0|1084857|0|0|0|2f494d472f494d47205241572f706578656c732dd0b0d0bdd0bdd0b02dd180d18bd0b6d0bad0bed0b2d0b02d333037373838322e6a7067|]
+Jun 19 11:56:10 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-tom\303\241\305\241-mal\303\255k-2581922.jpg" flags READ mode 0666
+Jun 19 11:56:10 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-pawan-yadav-2577274.jpg" flags READ mode 0666
+Jun 19 11:56:10 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-pawan-yadav-2577274.jpg" bytes read 1384575 written 0
+Jun 19 11:56:10 10.71.57.0 u107801835 [10.71.57.0|get|0|1384575|0|0|0|2f494d472f494d47205241572f706578656c732d706177616e2d79616461762d323537373237342e6a7067|]
+Jun 19 11:56:11 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-tom\303\241\305\241-mal\303\255k-2581922.jpg" bytes read 2198563 written 0
+Jun 19 11:56:11 10.71.57.0 u107801835 [10.71.57.0|get|1|2198563|0|0|0|2f494d472f494d47205241572f706578656c732d746f6dc3a1c5a12d6d616cc3ad6b2d323538313932322e6a7067|]
+Jun 19 11:56:11 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-miroslav-sta\305\241evskij-5046426.jpg" flags READ mode 0666
+Jun 19 11:56:11 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-lisa-fotios-2219871.jpg" flags READ mode 0666
+Jun 19 11:56:11 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-miroslav-sta\305\241evskij-5046426.jpg" bytes read 3013004 written 0
+Jun 19 11:56:11 10.71.57.0 u107801835 [10.71.57.0|get|0|3013004|0|0|0|2f494d472f494d47205241572f706578656c732d6d69726f736c61762d737461c5a16576736b696a2d353034363432362e6a7067|]
+Jun 19 11:56:11 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-inimafoto-4468008.jpg" flags READ mode 0666
+Jun 19 11:56:11 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-lisa-fotios-2219871.jpg" bytes read 5030855 written 0
+Jun 19 11:56:11 10.71.57.0 u107801835 [10.71.57.0|get|0|5030855|0|0|0|2f494d472f494d47205241572f706578656c732d6c6973612d666f74696f732d323231393837312e6a7067|]
+Jun 19 11:56:12 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-elijah-o'donnell-3088778.jpg" flags READ mode 0666
+Jun 19 11:56:12 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-inimafoto-4468008.jpg" bytes read 4434720 written 0
+Jun 19 11:56:12 10.71.57.0 u107801835 [10.71.57.0|get|1|4434720|0|0|0|2f494d472f494d47205241572f706578656c732d696e696d61666f746f2d343436383030382e6a7067|]
+Jun 19 11:56:12 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-ann-h-6935187.jpg" flags READ mode 0666
+Jun 19 11:56:12 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-ann-h-6935187.jpg" bytes read 2503718 written 0
+Jun 19 11:56:12 10.71.57.0 u107801835 [10.71.57.0|get|0|2503718|0|0|0|2f494d472f494d47205241572f706578656c732d616e6e2d682d363933353138372e6a7067|]
+Jun 19 11:56:12 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-elijah-o'donnell-3088778.jpg" bytes read 5481757 written 0
+Jun 19 11:56:12 10.71.57.0 u107801835 [10.71.57.0|get|0|5481757|0|0|0|2f494d472f494d47205241572f706578656c732d656c696a61682d6f27646f6e6e656c6c2d333038383737382e6a7067|]
+Jun 19 11:56:13 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-ann-h-6935076.jpg" flags READ mode 0666
+Jun 19 11:56:13 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-ann-h-6732757.jpg" flags READ mode 0666
+Jun 19 11:56:13 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-ann-h-6935076.jpg" bytes read 2814972 written 0
+Jun 19 11:56:13 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-ann-h-6732757.jpg" bytes read 2657828 written 0
+Jun 19 11:56:13 10.71.57.0 u107801835 [10.71.57.0|get|0|2657828|0|0|0|2f494d472f494d47205241572f706578656c732d616e6e2d682d363733323735372e6a7067|]
+Jun 19 11:56:13 10.71.57.0 u107801835 [10.71.57.0|get|0|2814972|0|0|0|2f494d472f494d47205241572f706578656c732d616e6e2d682d363933353037362e6a7067|]
+Jun 19 11:56:13 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-ann-h-6610212.jpg" flags READ mode 0666
+Jun 19 11:56:13 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-andrea-piacquadio-3767418.jpg" flags READ mode 0666
+Jun 19 11:56:14 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-ann-h-6610212.jpg" bytes read 1759674 written 0
+Jun 19 11:56:14 10.71.57.0 u107801835 [10.71.57.0|get|1|1759674|0|0|0|2f494d472f494d47205241572f706578656c732d616e6e2d682d363631303231322e6a7067|]
+Jun 19 11:56:14 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-andrea-piacquadio-3767418.jpg" bytes read 2258335 written 0
+Jun 19 11:56:14 10.71.57.0 u107801835 [10.71.57.0|get|1|2258335|0|0|0|2f494d472f494d47205241572f706578656c732d616e647265612d7069616371756164696f2d333736373431382e6a7067|]
+Jun 19 11:56:14 10.71.57.0 u107801835 open "/IMG/IMG RAW/pexels-andre-furtado-2916819.jpg" flags READ mode 0666
+Jun 19 11:56:14 10.71.57.0 u107801835 open "/IMG/IMG RAW/orienteering.jpg" flags READ mode 0666
+Jun 19 11:56:14 10.71.57.0 u107801835 close "/IMG/IMG RAW/pexels-andre-furtado-2916819.jpg" bytes read 2254741 written 0
+Jun 19 11:56:14 10.71.57.0 u107801835 [10.71.57.0|get|0|2254741|0|0|0|2f494d472f494d47205241572f706578656c732d616e6472652d6675727461646f2d323931363831392e6a7067|]
+Jun 19 11:56:14 10.71.57.0 u107801835 close "/IMG/IMG RAW/orienteering.jpg" bytes read 2441834 written 0
+Jun 19 11:56:14 10.71.57.0 u107801835 [10.71.57.0|get|0|2441834|0|0|0|2f494d472f494d47205241572f6f7269656e74656572696e672e6a7067|]
+Jun 19 11:56:15 10.71.57.0 u107801835 open "/IMG/IMG RAW/munro.jpg" flags READ mode 0666
+Jun 19 11:56:15 10.71.57.0 u107801835 open "/IMG/IMG RAW/misc.jpg" flags READ mode 0666
+Jun 19 11:56:15 10.71.57.0 u107801835 close "/IMG/IMG RAW/munro.jpg" bytes read 1603194 written 0
+Jun 19 11:56:15 10.71.57.0 u107801835 [10.71.57.0|get|1|1603194|0|0|0|2f494d472f494d47205241572f6d756e726f2e6a7067|]
+Jun 19 11:56:15 10.71.57.0 u107801835 close "/IMG/IMG RAW/misc.jpg" bytes read 1307500 written 0
+Jun 19 11:56:15 10.71.57.0 u107801835 [10.71.57.0|get|0|1307500|0|0|0|2f494d472f494d47205241572f6d6973632e6a7067|]
+Jun 19 11:56:15 10.71.57.0 u107801835 open "/IMG/IMG RAW/marion.jpg" flags READ mode 0666
+Jun 19 11:56:15 10.71.57.0 u107801835 open "/IMG/IMG RAW/landscape_03.jpg" flags READ mode 0666
+Jun 19 11:56:15 10.71.57.0 u107801835 close "/IMG/IMG RAW/marion.jpg" bytes read 890663 written 0
+Jun 19 11:56:15 10.71.57.0 u107801835 [10.71.57.0|get|0|890663|0|0|0|2f494d472f494d47205241572f6d6172696f6e2e6a7067|]
+Jun 19 11:56:15 10.71.57.0 u107801835 open "/IMG/IMG RAW/landscape_02.jpg" flags READ mode 0666
+Jun 19 11:56:15 10.71.57.0 u107801835 close "/IMG/IMG RAW/landscape_03.jpg" bytes read 2228175 written 0
+Jun 19 11:56:15 10.71.57.0 u107801835 [10.71.57.0|get|0|2228175|0|0|0|2f494d472f494d47205241572f6c616e6473636170655f30332e6a7067|]
+Jun 19 11:56:16 10.71.57.0 u107801835 close "/IMG/IMG RAW/landscape_02.jpg" bytes read 1024489 written 0
+Jun 19 11:56:16 10.71.57.0 u107801835 [10.71.57.0|get|1|1024489|0|0|0|2f494d472f494d47205241572f6c616e6473636170655f30322e6a7067|]
+Jun 19 11:56:16 10.71.57.0 u107801835 open "/IMG/IMG RAW/landscape_01.jpg" flags READ mode 0666
+Jun 19 11:56:16 10.71.57.0 u107801835 open "/IMG/IMG RAW/kayak_02.jpg" flags READ mode 0666
+Jun 19 11:56:16 10.71.57.0 u107801835 close "/IMG/IMG RAW/landscape_01.jpg" bytes read 1681737 written 0
+Jun 19 11:56:16 10.71.57.0 u107801835 [10.71.57.0|get|0|1681737|0|0|0|2f494d472f494d47205241572f6c616e6473636170655f30312e6a7067|]
+Jun 19 11:56:16 10.71.57.0 u107801835 open "/IMG/IMG RAW/kayak_01.jpg" flags READ mode 0666
+Jun 19 11:56:16 10.71.57.0 u107801835 close "/IMG/IMG RAW/kayak_02.jpg" bytes read 2128543 written 0
+Jun 19 11:56:16 10.71.57.0 u107801835 [10.71.57.0|get|0|2128543|0|0|0|2f494d472f494d47205241572f6b6179616b5f30322e6a7067|]
+Jun 19 11:56:16 10.71.57.0 u107801835 open "/IMG/IMG RAW/imgraw2.xcf" flags READ mode 0666
+Jun 19 11:56:16 10.71.57.0 u107801835 close "/IMG/IMG RAW/kayak_01.jpg" bytes read 1359627 written 0
+Jun 19 11:56:16 10.71.57.0 u107801835 [10.71.57.0|get|0|1359627|0|0|0|2f494d472f494d47205241572f6b6179616b5f30312e6a7067|]
+Jun 19 11:56:17 10.71.57.0 u107801835 open "/IMG/IMG RAW/hilwalking-group.jpg" flags READ mode 0666
+Jun 19 11:56:17 10.71.57.0 u107801835 close "/IMG/IMG RAW/imgraw2.xcf" bytes read 4406593 written 0
+Jun 19 11:56:17 10.71.57.0 u107801835 [10.71.57.0|get|1|4406593|0|0|0|2f494d472f494d47205241572f696d67726177322e786366|]
+Jun 19 11:56:17 10.71.57.0 u107801835 close "/IMG/IMG RAW/hilwalking-group.jpg" bytes read 864943 written 0
+Jun 19 11:56:17 10.71.57.0 u107801835 [10.71.57.0|get|0|864943|0|0|0|2f494d472f494d47205241572f68696c77616c6b696e672d67726f75702e6a7067|]
+Jun 19 11:56:17 10.71.57.0 u107801835 open "/IMG/IMG RAW/hillwalking.jpg" flags READ mode 0666
+Jun 19 11:56:17 10.71.57.0 u107801835 open "/IMG/IMG RAW/hills.jpg" flags READ mode 0666
+Jun 19 11:56:17 10.71.57.0 u107801835 close "/IMG/IMG RAW/hills.jpg" bytes read 630256 written 0
+Jun 19 11:56:17 10.71.57.0 u107801835 [10.71.57.0|get|0|630256|0|0|0|2f494d472f494d47205241572f68696c6c732e6a7067|]
+Jun 19 11:56:17 10.71.57.0 u107801835 close "/IMG/IMG RAW/hillwalking.jpg" bytes read 1972513 written 0
+Jun 19 11:56:17 10.71.57.0 u107801835 [10.71.57.0|get|0|1972513|0|0|0|2f494d472f494d47205241572f68696c6c77616c6b696e672e6a7067|]
+Jun 19 11:56:17 10.71.57.0 u107801835 open "/IMG/IMG RAW/highlandcoo.jpg" flags READ mode 0666
+Jun 19 11:56:18 10.71.57.0 u107801835 open "/IMG/IMG RAW/group.jpg" flags READ mode 0666
+Jun 19 11:56:18 10.71.57.0 u107801835 close "/IMG/IMG RAW/group.jpg" bytes read 1024416 written 0
+Jun 19 11:56:18 10.71.57.0 u107801835 [10.71.57.0|get|0|1024416|0|0|0|2f494d472f494d47205241572f67726f75702e6a7067|]
+Jun 19 11:56:18 10.71.57.0 u107801835 close "/IMG/IMG RAW/highlandcoo.jpg" bytes read 1574205 written 0
+Jun 19 11:56:18 10.71.57.0 u107801835 [10.71.57.0|get|1|1574205|0|0|0|2f494d472f494d47205241572f686967686c616e64636f6f2e6a7067|]
+Jun 19 11:56:18 10.71.57.0 u107801835 open "/IMG/IMG RAW/deer.jpg" flags READ mode 0666
+Jun 19 11:56:18 10.71.57.0 u107801835 open "/IMG/IMG RAW/climbing.jpg" flags READ mode 0666
+Jun 19 11:56:18 10.71.57.0 u107801835 close "/IMG/IMG RAW/deer.jpg" bytes read 1172762 written 0
+Jun 19 11:56:18 10.71.57.0 u107801835 [10.71.57.0|get|0|1172762|0|0|0|2f494d472f494d47205241572f646565722e6a7067|]
+Jun 19 11:56:19 10.71.57.0 u107801835 open "/IMG/IMG RAW/claire.jpg" flags READ mode 0666
+Jun 19 11:56:19 10.71.57.0 u107801835 close "/IMG/IMG RAW/climbing.jpg" bytes read 3628477 written 0
+Jun 19 11:56:19 10.71.57.0 u107801835 [10.71.57.0|get|1|3628477|0|0|0|2f494d472f494d47205241572f636c696d62696e672e6a7067|]
+Jun 19 11:56:19 10.71.57.0 u107801835 open "/IMG/IMG RAW/caonoe.jpg" flags READ mode 0666
+Jun 19 11:56:19 10.71.57.0 u107801835 close "/IMG/IMG RAW/claire.jpg" bytes read 5502635 written 0
+Jun 19 11:56:19 10.71.57.0 u107801835 [10.71.57.0|get|0|5502635|0|0|0|2f494d472f494d47205241572f636c616972652e6a7067|]
+Jun 19 11:56:20 10.71.57.0 u107801835 open "/IMG/IMG RAW/abseiling.jpg" flags READ mode 0666
+Jun 19 11:56:20 10.71.57.0 u107801835 close "/IMG/IMG RAW/caonoe.jpg" bytes read 3836361 written 0
+Jun 19 11:56:20 10.71.57.0 u107801835 [10.71.57.0|get|1|3836361|0|0|0|2f494d472f494d47205241572f63616f6e6f652e6a7067|]
+Jun 19 11:56:20 10.71.57.0 u107801835 open "/IMG/IMG RAW/bottom_banner_staff.jpg" flags READ mode 0666
+Jun 19 11:56:20 10.71.57.0 u107801835 close "/IMG/IMG RAW/abseiling.jpg" bytes read 3321809 written 0
+Jun 19 11:56:20 10.71.57.0 u107801835 [10.71.57.0|get|0|3321809|0|0|0|2f494d472f494d47205241572f61627365696c696e672e6a7067|]
+Jun 19 11:56:20 10.71.57.0 u107801835 open "/IMG/land_banner/img1.jpg" flags READ mode 0666
+Jun 19 11:56:21 10.71.57.0 u107801835 close "/IMG/IMG RAW/bottom_banner_staff.jpg" bytes read 4857032 written 0
+Jun 19 11:56:21 10.71.57.0 u107801835 [10.71.57.0|get|1|4857032|0|0|0|2f494d472f494d47205241572f626f74746f6d5f62616e6e65725f73746166662e6a7067|]
+Jun 19 11:56:21 10.71.57.0 u107801835 close "/IMG/land_banner/img1.jpg" bytes read 1755405 written 0
+Jun 19 11:56:21 10.71.57.0 u107801835 [10.71.57.0|get|1|1755405|0|0|0|2f494d472f6c616e645f62616e6e65722f696d67312e6a7067|]
+Jun 19 11:56:21 10.71.57.0 u107801835 open "/IMG/land_banner/gfdg.jpg" flags READ mode 0666
+Jun 19 11:56:21 10.71.57.0 u107801835 open "/IMG/land_banner/hgfhgf.jpg" flags READ mode 0666
+Jun 19 11:56:21 10.71.57.0 u107801835 close "/IMG/land_banner/gfdg.jpg" bytes read 1033755 written 0
+Jun 19 11:56:21 10.71.57.0 u107801835 [10.71.57.0|get|0|1033755|0|0|0|2f494d472f6c616e645f62616e6e65722f676664672e6a7067|]
+Jun 19 11:56:21 10.71.57.0 u107801835 close "/IMG/land_banner/hgfhgf.jpg" bytes read 1128055 written 0
+Jun 19 11:56:21 10.71.57.0 u107801835 [10.71.57.0|get|0|1128055|0|0|0|2f494d472f6c616e645f62616e6e65722f6867666867662e6a7067|]
+Jun 19 11:56:21 10.71.57.0 u107801835 open "/IMG/land_banner/gfd.jpg" flags READ mode 0666
+Jun 19 11:56:22 10.71.57.0 u107801835 open "/IMG/nav_background/img1.jpg" flags READ mode 0666
+Jun 19 11:56:22 10.71.57.0 u107801835 close "/IMG/nav_background/img1.jpg" bytes read 449239 written 0
+Jun 19 11:56:22 10.71.57.0 u107801835 [10.71.57.0|get|0|449239|0|0|0|2f494d472f6e61765f6261636b67726f756e642f696d67312e6a7067|]
+Jun 19 11:56:22 10.71.57.0 u107801835 open "/IMG/nav_background/gfdgfd.jpg" flags READ mode 0666
+Jun 19 11:56:22 10.71.57.0 u107801835 close "/IMG/land_banner/gfd.jpg" bytes read 4645564 written 0
+Jun 19 11:56:22 10.71.57.0 u107801835 [10.71.57.0|get|1|4645564|0|0|0|2f494d472f6c616e645f62616e6e65722f6766642e6a7067|]
+Jun 19 11:56:22 10.71.57.0 u107801835 close "/IMG/nav_background/gfdgfd.jpg" bytes read 833878 written 0
+Jun 19 11:56:22 10.71.57.0 u107801835 [10.71.57.0|get|0|833878|0|0|0|2f494d472f6e61765f6261636b67726f756e642f6766646766642e6a7067|]
+Jun 19 11:56:22 10.71.57.0 u107801835 open "/IMG/rope_banner/img1.jpg" flags READ mode 0666
+Jun 19 11:56:22 10.71.57.0 u107801835 open "/IMG/staff_banner/img1.jpg" flags READ mode 0666
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/rope_banner/img1.jpg" bytes read 1181814 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|1|1181814|0|0|0|2f494d472f726f70655f62616e6e65722f696d67312e6a7067|]
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/staff_banner/img1.jpg" bytes read 1418619 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|1|1418619|0|0|0|2f494d472f73746166665f62616e6e65722f696d67312e6a7067|]
+Jun 19 11:56:23 10.71.57.0 u107801835 open "/IMG/staff_banner/greg.jpg" flags READ mode 0666
+Jun 19 11:56:23 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/robbie_img.jpg" flags READ mode 0666
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/staff_banner/greg.jpg" bytes read 1201165 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|0|1201165|0|0|0|2f494d472f73746166665f62616e6e65722f677265672e6a7067|]
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/robbie_img.jpg" bytes read 434423 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|0|434423|0|0|0|2f494d472f73746166665f736c696465725f696d67732f726f626269655f696d672e6a7067|]
+Jun 19 11:56:23 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/img5.jpg" flags READ mode 0666
+Jun 19 11:56:23 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/marion.jpg" flags READ mode 0666
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/img5.jpg" bytes read 247855 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|0|247855|0|0|0|2f494d472f73746166665f736c696465725f696d67732f696d67352e6a7067|]
+Jun 19 11:56:23 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/marion.jpg" bytes read 449049 written 0
+Jun 19 11:56:23 10.71.57.0 u107801835 [10.71.57.0|get|0|449049|0|0|0|2f494d472f73746166665f736c696465725f696d67732f6d6172696f6e2e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/img4.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/img3.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/img4.jpg" bytes read 411542 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|411542|0|0|0|2f494d472f73746166665f736c696465725f696d67732f696d67342e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/img3.jpg" bytes read 393479 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|393479|0|0|0|2f494d472f73746166665f736c696465725f696d67732f696d67332e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/img2.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/img1.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/img2.jpg" bytes read 317458 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|317458|0|0|0|2f494d472f73746166665f736c696465725f696d67732f696d67322e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/img1.jpg" bytes read 232176 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|232176|0|0|0|2f494d472f73746166665f736c696465725f696d67732f696d67312e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/group.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 open "/IMG/staff_slider_imgs/claire.jpg" flags READ mode 0666
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/group.jpg" bytes read 704628 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|704628|0|0|0|2f494d472f73746166665f736c696465725f696d67732f67726f75702e6a7067|]
+Jun 19 11:56:24 10.71.57.0 u107801835 close "/IMG/staff_slider_imgs/claire.jpg" bytes read 141078 written 0
+Jun 19 11:56:24 10.71.57.0 u107801835 [10.71.57.0|get|0|141078|0|0|0|2f494d472f73746166665f736c696465725f696d67732f636c616972652e6a7067|]
+Jun 19 11:56:25 10.71.57.0 u107801835 open "/IMG/water_banner/img1.jpg" flags READ mode 0666
+Jun 19 11:56:25 10.71.57.0 u107801835 open "/IMG/water_banner/gfdgfd.jpg" flags READ mode 0666
+Jun 19 11:56:25 10.71.57.0 u107801835 close "/IMG/water_banner/gfdgfd.jpg" bytes read 1512986 written 0
+Jun 19 11:56:25 10.71.57.0 u107801835 [10.71.57.0|get|0|1512986|0|0|0|2f494d472f77617465725f62616e6e65722f6766646766642e6a7067|]
+Jun 19 11:56:25 10.71.57.0 u107801835 close "/IMG/water_banner/img1.jpg" bytes read 3431717 written 0
+Jun 19 11:56:25 10.71.57.0 u107801835 [10.71.57.0|get|0|3431717|0|0|0|2f494d472f77617465725f62616e6e65722f696d67312e6a7067|]
+Jun 19 11:56:25 10.71.57.0 u107801835 open "/js/MYJS.js" flags READ mode 0666
+Jun 19 11:56:25 10.71.57.0 u107801835 open "/logs/access.log.24.5.gz" flags READ mode 0666
+Jun 19 11:56:25 10.71.57.0 u107801835 close "/js/MYJS.js" bytes read 19967 written 0
+Jun 19 11:56:25 10.71.57.0 u107801835 [10.71.57.0|get|0|19967|0|0|0|2f6a732f4d594a532e6a73|]
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.24.5.gz" bytes read 1490 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|1|1490|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e352e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.24.3.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.23.7.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.24.3.gz" bytes read 1394 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|1394|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e332e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.23.7.gz" bytes read 879 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|879|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e372e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.24.2.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.21.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.24.2.gz" bytes read 1054 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|1054|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e322e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.21.gz" bytes read 5772 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|5772|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.17.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.16.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.16.gz" bytes read 17027 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 close "/logs/access.log.17.gz" bytes read 17064 written 0
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|17027|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 [10.71.57.0|get|0|17064|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e677a|]
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.22.gz" flags READ mode 0666
+Jun 19 11:56:26 10.71.57.0 u107801835 open "/logs/access.log.24.6.gz" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/access.log.22.gz" bytes read 3537 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|1|3537|0|0|0|2f6c6f67732f6163636573732e6c6f672e32322e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/access.log.24.6.gz" bytes read 2133 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|1|2133|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e362e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/access.log.20.gz" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/sftp.log.17.gz" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/sftp.log.17.gz" bytes read 4931 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|0|4931|0|0|0|2f6c6f67732f736674702e6c6f672e31372e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/access.log.20.gz" bytes read 8333 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|0|8333|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/sftp.log.16.gz" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/access.log.18.gz" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/access.log.18.gz" bytes read 9278 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|0|9278|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 close "/logs/sftp.log.16.gz" bytes read 2080 written 0
+Jun 19 11:56:27 10.71.57.0 u107801835 [10.71.57.0|get|0|2080|0|0|0|2f6c6f67732f736674702e6c6f672e31362e677a|]
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/sftp.log" flags READ mode 0666
+Jun 19 11:56:27 10.71.57.0 u107801835 open "/logs/access.log.23.6.gz" flags READ mode 0666

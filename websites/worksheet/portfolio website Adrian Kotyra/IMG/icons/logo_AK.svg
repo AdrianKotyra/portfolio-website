@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="#000000"
+   viewBox="0 0 32 32"
+   width="32px"
+   height="32px"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="logo_AK.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="25.96875"
+     inkscape:cx="16"
+     inkscape:cy="14.093863"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M -0.05883746,0.02997887 C 3.6758486,13.091913 3.316502,19.211579 9.7943387,24.322265 15.466415,28.724519 21.137679,27.576342 24.240641,27.107622 l 4.844271,4.936903 h 2.857449 L 26.255367,26.25212 C 26.219649,22.749438 34.244839,0.02997887 -0.05883746,0.02997887 Z M 4.3473268,2.9432343 c 0.1934805,0.016234 0.6423902,0.1767848 1.495696,0.5769667 5.7134692,2.6906766 7.7260292,6.681422 9.9034052,10.769098 1.565882,2.942427 4.311957,7.4241 6.247879,8.867665 1.937351,1.430467 4.053135,2.487585 -0.410199,0.579809 C 17.106484,21.828997 13.843791,16.414741 11.680702,12.313968 10.017667,9.1678117 8.5904591,6.2700863 5.4858417,4.1454851 c 0,0 -1.7189565,-1.2509547 -1.1385149,-1.2022508 z"
+     id="path2"
+     style="stroke-width:1.4419;fill:#ffffff" />
+</svg>

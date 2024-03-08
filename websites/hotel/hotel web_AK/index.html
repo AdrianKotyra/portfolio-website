@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hotel Website</title>
+    <link rel="stylesheet" href="css/mystylesheet.css" />
+    <meta name="description" content="Hotel BnB Home" />
+    <!--custom stylesheet -->
+
+    <!-- preload images to display top section in the same time with left images -->
+    <link rel="preload" as="image" href="./css/breakfast5.jpg" />
+    <link rel="preload" as="image" href="./css/breakfast4.jpg" />
+    <link rel="preload" as="image" href="./css/breakfast3.jpg" />
+    <link rel="preload" as="image" href="./css/breakfast2.jpg" />
+    <link rel="preload" as="image" href="./css/breakfast1.jpg" />
+
+    <!-- fancybox plugin for gallery -->
+    <link rel="stylesheet" href="./js/fancybox_plugin_CSS.css" />
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- jquery script -->
+
+    <!-- Jquery date picker plugin -->
+    <link
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  </head>
+
+  <body>
+    <!-- -------------- nav section --------------- -->
+
+    <!-- mobile nav -->
+    <div class="mobile_nav">
+      <div class="mobile_container">
+        <a class="mobile_nav_book" href="./booking.html">BOOK NOW</a>
+        <img class="hamb_icon" src="./icons/bars-solid.svg" />
+      </div>
+    </div>
+    <div class="background_mobile"></div>
+
+    <div class="mobile_nav_content">
+      <div class="mobile_nav_container">
+        <div class="x_container">
+          <img class="mobile_icon22" src="./icons/times-solid.svg" alt="" />
+        </div>
+
+        <p id="about_link_jumper" class="mobile_link">About</p>
+        <p id="gallery_link_jumper" class="mobile_link">Gallery</p>
+        <p id="feedback_link_jumper" class="mobile_link">Feedback</p>
+        <p id="contact_link_jumper" class="mobile_link">Contact</p>
+        <p id="more_mobile_link" class="mobile_link">More</p>
+      </div>
+    </div>
+
+    <div class="mobile_nav_content_more">
+      <div class="x_container">
+        <img
+          class="mobile_icon1"
+          src="./icons/arrow-left-solid.svg"
+          alt=""
+        /><img class="mobile_icon2" src="./icons/times-solid.svg" alt="" />
+      </div>
+      <a href="./rooms.html"><p class="mobile_link">Rooms</p></a>
+      <a href="./staff.html"><p class="mobile_link">Our Staff</p></a>
+      <a href="./food_menu.html"> <p class="mobile_link">Food Menu</p></a>
+      <a href="./booking.html"> <p class="mobile_link">Book Room</p></a>
+    </div>
+
+    <!-- wide screen nav -->
+    <div class="navigation_container">
+      <nav id="nav">
+        <div class="logo_hamb_container">
+          <img class="logo" src="./icons/hotel-solid.svg" />
+
+          <p class="hotel_name_logo">BnB Hotel</p>
+        </div>
+
+        <div class="links_socials_book_container">
+          <div class="nav_links_container">
+            <div>
+              <p id="about_nav" class="links_p">About</p>
+            </div>
+
+            <div>
+              <p id="gallery_nav" class="links_p">Gallery</p>
+            </div>
+            <div>
+              <p id="feedback_nav" class="links_p">Feedback</p>
+            </div>
+            <div>
+              <p id="contact_nav" class="links_p">Contact</p>
+            </div>
+
+            <div>
+              <p id="more_nav" class="links_p">
+                More<img
+                  class="arrows_menu"
+                  src="./icons/chevron-down-solid.svg"
+                />
+              </p>
+              <div class="extra_nav_slide_down">
+                <div class="extta_nav_container">
+                  <a href="./rooms.html" class="Rooms_extra_nav">Rooms</a>
+                  <a href="./staff.html" class="staff_extra_nav">Our Staff</a>
+                  <a href="./food_menu.html" class="menu_extra_nav"
+                    >Food Menu</a
+                  >
+                  <a href="./booking.html" class="menu_extra_nav">Book Room</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="socials_container">
+            <a
+              id="facebook_icon"
+              class="social_icons"
+              target="_blank"
+              href="https://www.facebook.com/"
+              ><img class="social_icon_img" src="./icons/facebook-f.svg" />
+            </a>
+            <a
+              class="social_icons"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><img class="social_icon_img" src="./icons/instagram.svg" />
+            </a>
+            <a class="social_icons" href="https://twitter.com/" target="_blank"
+              ><img class="social_icon_img" src="./icons/twitter.svg" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <img
+      class="hamb_wide_screen_icon"
+      src="./icons/three-horizontal-lines-outline-icon (2).svg"
+      alt=""
+    />
+
+    <!-- -----------------top section--------------- -->
+
+    <div id="top_section">
+      <div id="top_section_container">
+        <div class="top_section_video_container"></div>
+
+        <div class="top_section_text">
+          <div class="top_section_text_container">
+            <div class="main_text1_display_box">
+              <p class="top_section_text1">Choose Your Destiny</p>
+              <p class="top_section_text2">In one of our fanastic places</p>
+              <p class="top_section_text3">Hotel BnB</p>
+            </div>
+
+            <div class="main_text2_display_box">
+              <p class="top_section_text1">Great prices</p>
+              <p class="top_section_text3">Hotel BnB</p>
+            </div>
+
+            <div class="main_text3_display_box">
+              <p class="top_section_text1">Fabulous offers</p>
+              <p class="top_section_text3">Hotel BnB</p>
+            </div>
+
+            <div class="main_text4_display_box">
+              <p class="top_section_text1">Beautiful rooms</p>
+              <p class="top_section_text3">Hotel BnB</p>
+            </div>
+          </div>
+
+          <div class="button_container_top_text">
+            <div class="book_button_container">
+              <a class="book_button" href="./booking.html">Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------mid section-------------->
+
+    <div class="mid_section">
+      <div class="mid_section_text_container">
+        <button class="mid_section_text1">Hello</button>
+        <div class="about_anchor"></div>
+
+        <p class="mid_section_text2">Welcome to our hotel</p>
+        <div class="anchor_fade_in_effect_mid_text"></div>
+        <p class="mid_section_text3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia
+          fugiat dolore porro sapiente alias inventore iure perspiciatis
+          molestias repudiandae voluptatum, fugit non debitis facere accusamus
+          autem harum cupiditate veniam?
+        </p>
+      </div>
+
+      <div class="img_container">
+        <img src="./img/bed_room.jpg" id="mid_section_img_bedroom" />
+      </div>
+    </div>
+    <!-- show more subsection -->
+    <div class="show_more_section">
+      <button class="mid_section_text4">
+        Read More
+        <img
+          id="read_more_arrow"
+          class="icons_arrow_right"
+          src="./icons/arrow-right-solid.svg"
+        />
+      </button>
+
+      <div class="mid_section_text3_hiden">
+        <div class="mid_section_text3_hiden_container">
+          <img class="hidden_img_mid_text" src="./img/hidden img.jpg" alt="" />
+          <div class="text_hidden_mid_container">
+            <p class="mid_section_text3_2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio vel officiis numquam, autem voluptas, ut alias
+              accusantium repudiandae impedit dignissimos debitis. Commodi
+              velit, est similique veritatis molestiae beatae magnam vero minus
+              exercitationem nisi, vitae quo aspernatur quibusdam fuga
+              voluptates et atque corrupti at mollitia error vel! Labore veniam
+              reprehenderit fugit?
+            </p>
+          </div>
+        </div>
+
+        <div class="mid_section_text3_hiden_container2">
+          <div class="text_hidden_mid_container">
+            <p class="mid_section_text3_21">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              similique, debitis beatae nam nisi repellat omnis amet, vitae modi
+              minus corporis eius facere aut asperiores quas magnam, sapiente
+              neque! Quod exercitationem culpa explicabo praesentium tempore
+              eveniet perspiciatis officia laborum! Minus, excepturi dolores
+              soluta illum temporibus exercitationem quaerat similique ab,
+              tempore ut molestiae. Odio, natus error!
+            </p>
+          </div>
+          <img class="hidden_img_mid_text" src="./img/hidden img2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- --------gallery section------------ -->
+
+    <div class="gray_container_background"></div>
+    <div class="anchor_gallery_scroll"></div>
+    <div class="gallery_section">
+      <div class="gallery_text_content">
+        <p class="text_gallery1">Our Gallery</p>
+
+        <p class="text_gallery2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          quidem, impedit ea dolores, exercitationem aperiam soluta explicabo
+          vitae praesentium ipsum quod dolorem suscipit iusto voluptas!
+        </p>
+      </div>
+      <div class="anchor_fade_in_effect_mid_text2"></div>
+
+      <div class="gallery_container">
+        <div class="gallery_col1">
+          <div class="img_container_gallery1">
+            <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+            <a data-fancybox="gallery" href="./img/gallery img1.jpg">
+              <img class="bed_img1" src="./img/gallery img1.jpg" alt="" />
+            </a>
+            <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+          </div>
+
+          <div class="img_container_gallery2">
+            <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+            <a data-fancybox="gallery" href="./img/gallery img2.jpg">
+              <img class="bed_img2" src="./img/gallery img2.jpg" alt="" />
+            </a>
+            <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+          </div>
+        </div>
+
+        <div class="gallery_col2">
+          <div class="img_container_gallery_all">
+            <div class="img_container_gallery3">
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+              <a data-fancybox="gallery" href="./img/gallery img3.jpg">
+                <img class="bed_img3" src="./img/gallery img3.jpg" alt="" />
+              </a>
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+            </div>
+
+            <div class="img_container_gallery4">
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+              <a data-fancybox="gallery" href="./img/gallery img4.jpg">
+                <img class="bed_img4" src="./img/gallery img4.jpg" alt="" />
+              </a>
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+            </div>
+            <div class="img_container_gallery5">
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+              <a data-fancybox="gallery" href="./img/gallery img5.jpg">
+                <img class="bed_img5" src="./img/gallery img5.jpg" alt="" />
+              </a>
+              <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+            </div>
+          </div>
+        </div>
+        <button class="text_gallery3">
+          See more
+          <img
+            id="arrows_gallery"
+            class="icons_arrow_right"
+            src="./icons/arrow-right-solid.svg"
+          />
+        </button>
+
+        <div class="gallery_col3">
+          <div class="img_container_gallery_all_extra">
+            <div class="gallery_col2">
+              <div class="img_container_gallery_all">
+                <div class="img_container_gallery3">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden1.jpg">
+                    <img
+                      class="bed_img3"
+                      src="./img/gallery hidden1.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+
+                <div class="img_container_gallery4">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden2.jpg">
+                    <img
+                      class="bed_img4"
+                      src="./img/gallery hidden2.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+                <div class="img_container_gallery5">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden3.jpg">
+                    <img
+                      class="bed_img5"
+                      src="./img/gallery hidden3.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_col4">
+          <div class="img_container_gallery_all_extra2">
+            <div class="gallery_col2">
+              <div class="img_container_gallery_all">
+                <div class="img_container_gallery3">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden4.jpg">
+                    <img
+                      class="bed_img3"
+                      src="./img/gallery hidden4.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+
+                <div class="img_container_gallery4">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden5.jpg">
+                    <img
+                      class="bed_img4"
+                      src="./img/gallery hidden5.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+                <div class="img_container_gallery5">
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                  <a data-fancybox="gallery" href="./img/gallery hidden6.jpg">
+                    <img
+                      class="bed_img5"
+                      src="./img/gallery hidden6.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- ---- fancy box plugin container --<<<<<<<--data-fancybox= "gallery">>>>>>>>>> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------video section---------- -->
+    <div class="hidden_video_iframe_content">
+      <div class="iframe_container">
+        <iframe
+          class="hidden_video_iframe"
+          src="https://www.youtube.com/embed/WJThNmE_ehE"
+          title="JW Marriott Bucharest Grand Hotel - Hotel Video Presentation"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+        <div class="bg_color">
+          <img
+            class="iframe_video_cross"
+            src="./icons/times-solid.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="about_hotel_section">
+      <div class="about_section_hotel_container">
+        <div class="text_big_about_container">
+          <button class="watch_video_button">
+            <img
+              class="watch_vide_arrow"
+              src="./icons/rightarrow_87483.png"
+              alt=""
+            />
+            WATCH THE VIDEO
+          </button>
+        </div>
+
+        <div class="text_small_about_container">
+          <p class="about_text_2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            nam tenetur, facilis officiis, quasi, cum inventore illo culpa
+            excepturi modi accusamus labore odio! Ipsa, quibusdam.
+          </p>
+
+          <p class="about_text_3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            nam tenetur, facilis officiis, quasi, cum inventore illo culpa
+            excepturi modi accusamus labore odio! Ipsa, quibusdam.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------offers section---------------- -->
+    <div class="hotel_offers_section">
+      <div class="hotel_offers_section_container">
+        <div class="hotel_offers_section_text">
+          <p class="offers_text1">Our offers</p>
+          <p class="offers_text2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi rem
+            quis expedita, excepturi quaerat iusto vel dolore harum, laudantium,
+            quas eius. Veniam veritatis cumque necessitatibus?
+          </p>
+        </div>
+        <div class="anchor_fade_in_effect_mid_text3"></div>
+
+        <div class="hotel_offers_section_content">
+          <div class="col_offers">
+            <div class="offers_img_container">
+              <img class="offers_img" src="img/offers3.jpg" alt="" srcset="" />
+            </div>
+
+            <div class="offers_text">
+              <p class="offers_text3">Gym</p>
+              <p class="offers_text4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi dolorem non eos at id consequatur nisi ex fuga,
+                inventore labore.
+              </p>
+            </div>
+          </div>
+
+          <div class="col_offers">
+            <div class="offers_img_container">
+              <img class="offers_img" src="img/offers1.jpg" alt="" srcset="" />
+            </div>
+
+            <div class="offers_text">
+              <p class="offers_text3">Rooms</p>
+              <p class="offers_text4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ea
+                eos reprehenderit deleniti voluptates eius!
+              </p>
+            </div>
+          </div>
+          <div class="col_offers">
+            <div class="offers_img_container">
+              <img class="offers_img" src="img/offers2.jpg" alt="" srcset="" />
+            </div>
+
+            <div class="offers_text">
+              <p class="offers_text3">Canteen</p>
+              <p class="offers_text4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium iusto, ratione harum odio nostrum ex doloribus
+                cupiditate illo sint!
+              </p>
+            </div>
+          </div>
+          <div class="col_offers">
+            <div class="offers_img_container">
+              <img
+                id="offers_img_park"
+                class="offers_img"
+                src="img/offers5.jpg"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="offers_text">
+              <p class="offers_text3">Parking</p>
+              <p class="offers_text4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis fugit maiores fuga.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------slider offers rooms------------- -->
+      <div class="offer_slider_room_section">
+        <div class="slider_img_section">
+          <div class="offers_room_container_imgs">
+            <div class="room_offer_container1">
+              <img
+                id="slider_img_1"
+                class="slider_img"
+                src="./img/slider1.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container2">
+              <img
+                id="slider_img_2"
+                class="slider_img"
+                src="./img/slider2.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container3">
+              <img
+                id="slider_img_3"
+                class="slider_img"
+                src="./img/slider3.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container4">
+              <img
+                id="slider_img_4"
+                class="slider_img"
+                src="./img/slider4.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container5">
+              <img
+                id="slider_img_5"
+                class="slider_img"
+                src="./img/slider5.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container6">
+              <img
+                id="slider_img_6"
+                class="slider_img"
+                src="./img/slider6.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container7">
+              <img
+                id="slider_img_7"
+                class="slider_img"
+                src="./img/slider7.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+            <div class="room_offer_container8">
+              <img
+                id="slider_img_8"
+                class="slider_img"
+                src="./img/slider8.jpg"
+                alt=""
+              />
+              <p class="room_offer_text">from 100£</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------service section------------------ -->
+    <div class="service_section_col">
+      <div class="service_section_col_container">
+        <div class="service_col_text_container">
+          <div class="texts_service">
+            <p class="offers_text1_p">Service offers</p>
+            <p class="offers_text2_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ex sunt fugiat iusto recusandae laboriosam illo laborum
+              commodi nihil perferendis esse aspernatur veniam, eos aut porro
+              voluptas quam voluptatem eveniet blanditiis. Nostrum iusto
+              voluptates itaque doloremque possimus corporis error sequi.
+            </p>
+          </div>
+        </div>
+
+        <div class="service_offers_col">
+          <div class="container_col2">
+            <div class="service_icons_col1">
+              <div class="service_container">
+                <img class="service_icon" src="./icons/shield.png" alt="" />
+                <p class="text_service_offers">Security</p>
+                <p class="text_service_offers_long">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempore incidunt vel adipisci error cumque praesentium nihil
+                </p>
+              </div>
+              <div class="service_container">
+                <img class="service_icon" src="./icons/wifi.png" alt="" />
+                <p id="wifi_icon" class="text_service_offers">Wifi</p>
+                <p class="text_service_offers_long">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="service_icons_col2">
+              <div class="service_container">
+                <img class="service_icon" src="./icons/coffee.png" alt="" />
+                <p class="text_service_offers">Breakfast</p>
+                <p class="text_service_offers_long">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+              <div class="service_container">
+                <img
+                  class="service_icon"
+                  src="./icons/hot-coffee-rounded-cup-on-a-plate-from-side-view.png"
+                  alt=""
+                />
+                <p class="text_service_offers">Coffee</p>
+                <p class="text_service_offers_long">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------near section----------------- -->
+    <div class="near_by_section">
+      <p class="text_gallery1">Near our hotel</p>
+
+      <div class="near_by_container">
+        <div class="image_near_container">
+          <div class="near_box_slider">
+            <div class="img_near_container_box">
+              <img
+              id="near_slider_img4"
+              class="near_img_slider"
+              src="./img/slider_near (4).jpg"
+             
+             
+              />
+              <div class="near_text_box">
+                <p>Mountains</p>
+                
+              </div>
+          
+            </div>
+          
+            <div class="img_near_container_box">
+              <img
+              id="near_slider_img4"
+              class="near_img_slider"
+              src="./img/slider_near (1).jpg"
+             
+             
+              />
+              <div class="near_text_box">
+                <p>Transport</p>
+                
+              </div>
+          
+            </div>
+            <div class="img_near_container_box">
+              <img
+              id="near_slider_img2"
+              class="near_img_slider"
+              src="./img/slider_near (2).jpg"
+             
+             
+              />
+              <div class="near_text_box">
+                <p>Shopping</p>
+                
+              </div>
+          
+            </div>
+            <div class="img_near_container_box">
+              <img
+              id="near_slider_img3"
+              class="near_img_slider"
+              src="./img/slider_near (3).jpg"
+             
+             
+              />
+              <div class="near_text_box">
+                <p>City</p>
+                
+              </div>
+          
+            </div>
+
+            <div class="img_near_container_box">
+              
+              <img
+              id="near_slider_img5"
+              class="near_img_slider"
+              src="./img/near_img.jpg"
+              alt=""
+              />
+              <div class="near_text_box">
+                <p>Views</p>
+                
+              </div>
+          
+            </div>
+
+          </div>
+
+          <div class="arrows_container">
+            <img
+              id="near_arrow_left"
+              class="near_slider_arrow"
+              src="./icons/arrow-left-solid.svg"
+              alt=""
+            />
+            <img
+              id="near_arrow_right"
+              class="near_slider_arrow"
+              src="./icons/arrow-right-solid.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="text_near_container">
+          <p id="near_text2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+            veritatis quasi cupiditate inventore nesciunt beatae quam eum magni
+            molestiae, placeat sed, odit laudantium consectetur doloremque ipsa
+            aperiam voluptatibus hic accusamus.
+          </p>
+          <div class="anchor_near"></div>
+
+          <div class="icons_near_container">
+            <div class="near_icon_text_container">
+              <img class="icons_near" src="./icons/shop.png" alt="" />
+              <p class="near_text_icon1">Shopping centre</p>
+              <p class="near_text_icon2">1km from the hotel</p>
+            </div>
+            <div class="near_icon_text_container">
+              <img class="icons_near" src="./icons/city.png" alt="" />
+              <p class="near_text_icon1_change">City centre</p>
+              <p class="near_text_icon2_change">500m from the hotel</p>
+            </div>
+            <div class="near_icon_text_container">
+              <img class="icons_near" src="./icons/nature.png" alt="" />
+              <p class="near_text_icon1_change">Mountains</p>
+              <p class="near_text_icon2_change">3km from the hotel</p>
+            </div>
+            <div class="near_icon_text_container">
+              <img class="icons_near" src="./icons/bus.png" alt="" />
+              <p class="near_text_icon1">Public transport</p>
+              <p class="near_text_icon2">200m from the hotel</p>
+            </div>
+          </div>
+
+          <div class="icons_near_container_mobile">
+            <div class="near_col_mobile">
+              <div class="near_icon_text_container">
+                <img class="icons_near" src="./icons/shop.png" alt="" />
+                <p class="near_text_icon1_mobile">Shopping centre</p>
+                <p class="near_text_icon2">1km from the hotel</p>
+              </div>
+              <div class="near_icon_text_container">
+                <img class="icons_near" src="./icons/city.png" alt="" />
+                <p class="near_text_icon1_change_mobile">City centre</p>
+                <p class="near_text_icon2_change">500m from the hotel</p>
+              </div>
+            </div>
+            <div class="near_col_mobile">
+              <div class="near_icon_text_container">
+                <img class="icons_near" src="./icons/nature.png" alt="" />
+                <p class="near_text_icon1_change_mobile">Mountains</p>
+                <p class="near_text_icon2_change">3km from the hotel</p>
+              </div>
+              <div class="near_icon_text_container">
+                <img class="icons_near" src="./icons/bus.png" alt="" />
+                <p class="near_text_icon1_mobile">Public transport</p>
+                <p class="near_text_icon2">200m from the hotel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gray_container_background"></div>
+
+    <div class="anchor_feedback_scroll"></div>
+    <div class="anchor_feedback_scroll2">fff</div>
+
+    <!-- -----------feedback section----------- -->
+
+    <div class="feedback_box">
+      <div class="feedback_container_box">
+        <div class="leave_feed_back_window">
+          <div class="chat_box">
+            <img class="chat_window" src="./icons/quotes-icon.svg" alt="" />
+            <div class="title_window">Leave feedback</div>
+          </div>
+        </div>
+        <div class="feedback_window">
+          <input class="feedback_input1" type="text" placeholder="Name" />
+          <input class="feedback_input2" type="text" placeholder="Surame" />
+          <textarea
+            class="feedback_area"
+            name="Your comment"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write your message"
+          ></textarea>
+          <button class="feedback_button_window">Send</button>
+        </div>
+
+        <div class="feedback_window_message">
+          <div class="text_dispplay_after_send_feedback"></div>
+        </div>
+      </div>
+
+      <div class="feedback_section">
+        <div class="feedback_section_text_container">
+          <p id="review_text1" class="offers_text1">Feedback</p>
+          <p id="review_text2" class="offers_text2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit corrupti dolorem in accusamus excepturi, unde fugit
+            numquam? Impedit, excepturi consequatur?
+          </p>
+        </div>
+
+        <div class="anchor_fade_in_effect_mid_text4"></div>
+
+        <div class="feedback_container">
+          <div class="feedback_col2_review">
+            <div class="feedback_col2_container_main">
+              <div class="customer_plate0">
+                <div class="image_feedback_text_container">
+                  <img class="customer_img" src="./img/customer1.jpg" alt="" />
+
+                  <div class="name_customer_container">
+                    <p class="name_customer">lorem ipsum</p>
+                    <div class="starts_container">
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <hr class="line_feedback_col2" />
+                      <img
+                        class="feedback_arrow_right"
+                        src="./icons/4829872_arrow_next_right_icon.svg"
+                      />
+                      <div class="arrow_img_container_mobile1">
+                        <img
+                          class="feedback_arrow_right_online1"
+                          src="./icons/4829872_arrow_next_right_icon.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="beta_text_feedback">
+                  <p class="feedback_col2_title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                  </p>
+                  <p class="feedback_review_text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Saepe sequi deleniti, at voluptatibus assumenda asperiores
+                    vel odio fugit impedit? Asperiores, reprehenderit? Expedita
+                    sequi laboriosam repellendus facilis saepe aliquam? Suscipit
+                    perferendis itaque ex tempore eaque. Error optio in fugit
+                    obcaecati rem, culpa minus molestiae ratione, provident
+                    consectetur fugiat numquam, a ipsum!
+                  </p>
+                </div>
+              </div>
+
+              <div class="customer_plate1">
+                <div class="image_feedback_text_container">
+                  <div class="arrow_img_container">
+                    <img
+                      class="customer_img"
+                      src="./img/customer2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_customer_container">
+                    <p class="name_customer">lorem ipsum</p>
+                    <div class="starts_container">
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <hr class="line_feedback_col2" />
+                      <img
+                        class="feedback_arrow_right2"
+                        src="./icons/4829872_arrow_next_right_icon.svg"
+                      />
+                      <div class="arrow_img_container_mobile2">
+                        <img
+                          class="feedback_arrow_right_online2"
+                          src="./icons/4829872_arrow_next_right_icon.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="beta_text_feedback">
+                  <p class="feedback_col2_title">Lorem ipsum dolor sit.</p>
+                  <p class="feedback_review_text">
+                    Laudantium temporibus saepe harum, doloribus debitis unde!
+                    Praesentium fuga, dolore distinctio culpa et quasi magni.
+                    Molestiae iure facilis a atque accusantium maxime incidunt
+                    numquam, natus rem, dolores exercitationem amet eum?
+                  </p>
+                </div>
+              </div>
+
+              <div class="customer_plate2">
+                <div class="image_feedback_text_container">
+                  <div class="arrow_img_container">
+                    <img
+                      class="customer_img"
+                      src="./img/customer3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_customer_container">
+                    <p class="name_customer">lorem ipsum</p>
+                    <div class="starts_container">
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <hr class="line_feedback_col2" />
+                      <img
+                        class="feedback_arrow_right3"
+                        src="./icons/4829872_arrow_next_right_icon.svg"
+                      />
+                      <div class="arrow_img_container_mobile3">
+                        <img
+                          class="feedback_arrow_right_online2"
+                          src="./icons/4829872_arrow_next_right_icon.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="beta_text_feedback">
+                  <p class="feedback_col2_title">Lorem ipsum dolor sit.</p>
+                  <p class="feedback_review_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit laboriosam doloribus adipisci perferendis maiores,
+                    tempora nobis iusto delectus nostrum architecto explicabo
+                    voluptates?
+                  </p>
+                </div>
+              </div>
+
+              <div class="customer_plate3">
+                <div class="image_feedback_text_container">
+                  <div class="arrow_img_container">
+                    <img
+                      class="customer_img"
+                      src="./img/customer4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_customer_container">
+                    <p class="name_customer">lorem ipsum</p>
+                    <div class="starts_container">
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <hr class="line_feedback_col2" />
+                      <img
+                        class="feedback_arrow_right4"
+                        src="./icons/4829872_arrow_next_right_icon.svg"
+                      />
+                      <div class="arrow_img_container_mobile4">
+                        <img
+                          class="feedback_arrow_right_online2"
+                          src="./icons/4829872_arrow_next_right_icon.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="beta_text_feedback">
+                  <p class="feedback_col2_title">Lorem ipsum dolor sit.</p>
+                  <p class="feedback_review_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Placeat, unde! Laudantium temporibus saepe harum, doloribus
+                    debitis unde! Praesentium fuga, dolore distinctio culpa et
+                    quasi magni. Molestiae iure facilis a atque accusantium
+                    maxime incidunt numquam, natus rem, dolores exercitationem
+                    amet eum?
+                  </p>
+                </div>
+              </div>
+              <div class="customer_plate4">
+                <div class="image_feedback_text_container">
+                  <div class="arrow_img_container">
+                    <img
+                      class="customer_img"
+                      src="./img/customer5.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_customer_container">
+                    <p class="name_customer">lorem ipsum</p>
+                    <div class="starts_container">
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <img
+                        class="feedback_stars_image"
+                        src="./icons/start.png"
+                        alt=""
+                      />
+                      <hr class="line_feedback_col2" />
+                      <img
+                        class="feedback_arrow_right5"
+                        src="./icons/4829872_arrow_next_right_icon.svg"
+                      />
+                      <div class="arrow_img_container_mobile5">
+                        <img
+                          class="feedback_arrow_right_online2"
+                          src="./icons/4829872_arrow_next_right_icon.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="beta_text_feedback">
+                  <p class="feedback_col2_title">Lorem ipsum dolor sit.</p>
+                  <p class="feedback_review_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Placeat, unde! Laudantium temporibus saepe harum, doloribus
+                    debitis unde! Praesentium fuga, dolore distinctio culpa et
+                    quasi magni. Molestiae iure facilis a atque accusantium
+                    maxime incidunt numquam, natus rem, dolores exercitationem
+                    amet eum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="square_container">
+            <img
+              id="square1"
+              class="square_icon"
+              src="./icons/square_full.svg"
+              alt=""
+            />
+            <img
+              id="square2"
+              class="square_icon"
+              src="./icons/square.svg"
+              alt=""
+            />
+            <img
+              id="square3"
+              class="square_icon"
+              src="./icons/square.svg"
+              alt=""
+            />
+            <img
+              id="square4"
+              class="square_icon"
+              src="./icons/square.svg"
+              alt=""
+            />
+            <img
+              id="square5"
+              class="square_icon"
+              src="./icons/square.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------hidden feedback section------------ -->
+    <p class="see_more_feedback">
+      See more
+      <img
+        id="feedback_arrow"
+        class="icons_arrow_right"
+        src="./icons/arrow-right-solid.svg"
+      />
+    </p>
+    <div class="review_section">
+      <div class="gray_container_background_feedback"></div>
+
+      <div class="review_container">
+        <div class="all_col_review_container">
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer6.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer7.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer8.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+        </div>
+
+        <div class="all_col_review_container">
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer9.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer10.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+          <div class="review_col_container">
+            <img class="extra_feedback_img" src="./img/customer11.jpg" alt="" />
+            <p>Lorem Ipsum</p>
+            <hr class="hr_line_review" />
+            <div class="starts_container_icons">
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+              <img class="star_icon" src="./icons/start.png" alt="" />
+            </div>
+            <p class="review_p">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              temporibus commodi, adipisci quisquam culpa repudiandae. Velit
+              quas earum accusantium voluptatem!"
+            </p>
+            <p class="customer_review">Lorem, ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------calendar section------------ -->
+    <div class="avability_section">
+      <div class="avability_container">
+        <div class="img_ava_container">
+          <img class="booking_img" src="./img/booking.jpg" alt="" />
+        </div>
+
+        <div class="text_ava_container">
+          <p class="book_text1">Book your room</p>
+          <p class="book_text2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iste!
+          </p>
+
+          <div class="date_picker_container">
+            <input
+              type="text"
+              id="my_date_picker"
+              placeholder="Check-in Date"
+            /><br />
+            <input
+              type="text"
+              id="my_date_picker2"
+              placeholder="Check-out Date"
+            /><br />
+            <button class="button_ava">CHECK AVABILITY</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------contact section----------------- -->
+    <div class="contact_section">
+      <div class="contact_section_container">
+        <div class="get_in_touch_col">
+          <h1 class="touch_header">Get In Touch</h1>
+
+          <p>Give Us A Call</p>
+          <img class="phone_icon" src="./icons/mobile-phone-icon.svg" alt="" />
+          <p2>0000000000000</p2>
+          <hr />
+          <a href="mailto:abchotmail.com"
+            ><p class="enail_link_p">Send Us An Email</p></a
+          >
+
+          <img class="email_icon" src="./icons/email-icon.svg" alt="" />
+          <p2> pfsdfsdfsd@yahoo.com</p2>
+          <hr />
+        </div>
+
+        <div class="contact_col">
+          <h1 class="touch_header">Contact US</h1>
+          <form class="form_contact_col">
+            <input class="name_form" type="text" placeholder="Your Name" />
+            <input
+              class="number_form"
+              type="number"
+              placeholder="Your Cellphone"
+            />
+            <input class="email_form" type="text" placeholder="Your Email" />
+            <textarea
+              class="area_form"
+              name=""
+              id="form_message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <button class="form_button">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <hr class="footer_hr" />
+    </div>
+
+    <!-- -------------footers------------ -->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_text1_logo_container">
+          <h1>BnB Hotel</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            vel quam nostrum voluptatibus nihil magni corrupti a, facilis eius
+            blanditiis necessitatibus eaque nam officia itaque tempore unde
+            excepturi molestiae consequuntur, dignissimos cupiditate officiis
+            laboriosam ducimus! Ipsam tempore dolores reprehenderit eos?
+          </p>
+          <div class="footer_icons_container">
+            <img
+              id="footer_fb"
+              class="footer_icon"
+              src="./icons/facebook-f.svg"
+              alt=""
+            />
+            <img class="footer_icon" src="./icons/instagram.svg" alt="" />
+            <img class="footer_icon" src="./icons/twitter.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="footers_cols_text">
+          <div class="footer_col">
+            <p class="footer_col_title">lorem ipsum</p>
+            <p></p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+          </div>
+
+          <div class="footer_col">
+            <p class="footer_col_title">lorem ipsum</p>
+            <p></p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+          </div>
+
+          <div class="footer_col">
+            <p class="footer_col_title">lorem ipsum</p>
+            <p></p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+          </div>
+
+          <div class="footer_col">
+            <p class="footer_col_title">lorem ipsum</p>
+            <p></p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery date picker plugin -->
+    <script src="./js/datePicker.js"></script>
+
+    <!-- custom scripts -->
+    <script src="./js/jumper_script.js"></script>
+    <script src="./js/custom.js"></script>
+
+    <!-- fancybox plugin premade scripts -->
+    <script src="./js/fancybox_plugin.js"></script>
+  </body>
+</html>
