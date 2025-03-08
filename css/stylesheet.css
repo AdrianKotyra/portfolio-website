@@ -91,6 +91,9 @@ margin: 0;
 
 
 }
+#work {
+    background-color: #1a1a1a;
+}
 .services_text {
     width: 50%;
     margin-right: 50px;
@@ -1445,9 +1448,10 @@ filter: brightness(0.7);
 }
 
 @keyframes fadeInEffect{
-    0%{opacity: 0%;}
+    
+    0%{opacity: 0%; }
 
-    100%{opacity: 100%;}
+    100%{opacity: 100%; }
 }
 @keyframes fadeOutEffect{
     0%{opacity: 100%;}
