@@ -1,11 +1,11 @@
-
-# THE THINGS I HAVE IMPROVED IN TERMS OF SEO.
+# SEO IMPLEMENTATION
+##  THE THINGS I HAVE IMPROVED IN TERMS OF SEO.
 
 - I have Improved meta description. The new version is more detailed, keyword-rich, and SEO-friendly while maintaining readability.
 - I have Improved meta keywords. This version strengthens keywords related to web development, front-end, back-end, full-stack, CMS, e-commerce, UI/UX, and database management to boost visibility.
 - I have Improved meta author tag.  it more descriptive, relating more to web development.
 
-# THE THINGS I HAVE IN TERMS OF SEO.
+##  THE THINGS I HAVE IN TERMS OF SEO.
 
 - google analytics (Helps me track user behavior and improve my website accordingly.)
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9CXDLECBD"></script>
