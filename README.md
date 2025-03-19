@@ -24,3 +24,4 @@
 `<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Start</a>`
 - Alt Tags for Images (Improves Image SEO)
 `<img src="images/git.jpg" class="img-responsive" alt="GitHub profile link">`
+![Screenshot](https://imgur.com/a/BKQrO6p)
