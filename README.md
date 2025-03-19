@@ -15,13 +15,19 @@
   gtag('js', new Date());
   gtag('config', 'G-Z9CXDLECBD');
 </script>
+![Screenshot](https://i.imgur.com/g5VDCAk.jpeg)
+
 - Heading Tags (Improve Readability & SEO)
 `<h1>`Adrian <br> Kotyra`</h1>`
 `<h2` class="rotate">Web Student, Software Student, UI &AMP; UX Learner`</h2>`
+![Screenshot](https://i.imgur.com/78FRXvb.jpeg)
 
 - Mobile-Friendly (Responsive Design with Bootstrap it adjusts properly on different screen sizes.)
+![Screenshot](https://i.imgur.com/tlHoIQb.jpeg)
 - Internal Linking (Boosts Engagement & Navigation) 
 `<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Start</a>`
+![Screenshot](https://i.imgur.com/TQaCtLj.jpeg)
+
 - Alt Tags for Images (Improves Image SEO)
 `<img src="images/git.jpg" class="img-responsive" alt="GitHub profile link">`
 ![Screenshot](https://i.imgur.com/ul7RAu7.jpeg)
