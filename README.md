@@ -24,7 +24,7 @@
 
 - Mobile-Friendly (Responsive Design with Bootstrap it adjusts properly on different screen sizes.)
 ![Screenshot](https://i.imgur.com/tlHoIQb.jpeg)
-- Internal Linking (Boosts Engagement & Navigation) 
+- Internal Linking (Boosts Engagement & Navigation)
 `<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Start</a>`
 ![Screenshot](https://i.imgur.com/TQaCtLj.jpeg)
 
