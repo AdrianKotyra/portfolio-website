@@ -16,11 +16,11 @@
   gtag('config', 'G-Z9CXDLECBD');
 </script>
 - Heading Tags (Improve Readability & SEO)
-><h1>Adrian <br> Kotyra</h1>
-><h2 class="rotate">Web Student, Software Student, UI &AMP; UX Learner</h2>
+`<h1>`Adrian <br> Kotyra`</h1>`
+`<h2` class="rotate">Web Student, Software Student, UI &AMP; UX Learner`</h2>`
 
 - Mobile-Friendly (Responsive Design with Bootstrap it adjusts properly on different screen sizes.)
 - Internal Linking (Boosts Engagement & Navigation) 
-><a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Start</a>
+`<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Start</a>`
 - Alt Tags for Images (Improves Image SEO)
-><img src="images/git.jpg" class="img-responsive" alt="GitHub profile link">
+`<img src="images/git.jpg" class="img-responsive" alt="GitHub profile link">`
