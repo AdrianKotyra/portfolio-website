@@ -20,7 +20,7 @@
 - Heading Tags (Improve Readability & SEO)
 `<h1>`Adrian <br> Kotyra`</h1>`
 `<h2` class="rotate">Web Student, Software Student, UI &AMP; UX Learner`</h2>`
-![Screenshot](https://i.imgur.com/78FRXvb.jpeg)
+![Screenshot](https://i.imgur.com/LzDVJ8m.jpeg)
 
 - Mobile-Friendly (Responsive Design with Bootstrap it adjusts properly on different screen sizes.)
 ![Screenshot](https://i.imgur.com/tlHoIQb.jpeg)
