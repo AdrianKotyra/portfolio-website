@@ -10,6 +10,7 @@
     height: 30px !important;;
     object-fit: cover;
 }
+
 .centered-text {
     text-align: center;
 }
@@ -52,6 +53,7 @@
 .fp-section h2{
     color: rgb(255, 255, 255);
 }
+
 #contact {
     color: white;
 }
@@ -63,6 +65,9 @@
 }
 #portfolio h2 {
     color: black;
+}
+#about h1 {
+    color: white !important;
 }
 .custom-ol {
     color: #D43F52;
