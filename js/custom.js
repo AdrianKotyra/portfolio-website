@@ -103,6 +103,7 @@ const cinema  =
 
 }
 
+<<<<<<< HEAD
 const multipage  =
 {
 	name: "React Multipage",
@@ -116,6 +117,21 @@ const multipage  =
 	`,
 	link: "https://cafe-multipage-ak.netlify.app/",
 	img_src: "img/cafe.png"
+=======
+const ajax  =
+{
+	name: "Ajax Database",
+	text: `
+	Following the completion of an AJAX course, I embarked on a new project to further solidify my skills in dynamic web development. I decided to create a database containing a list of car models, and using PHP, I rendered this data onto a website using loops to dynamically generate content. <br><br>
+	The most exciting aspect of this project was implementing AJAX to enable seamless editing of the car models without the need for refreshing the website. With AJAX, users could edit details such as model name, year, or price directly on the webpage, and the changes would be instantly reflected in the database without disrupting their browsing experience. <br><br>
+	This project was a significant milestone for me as it demonstrated my ability to leverage AJAX to create interactive and responsive web applications. It also showcased my proficiency in PHP and SQL, as I seamlessly integrated database operations into the website to ensure smooth data management. <br><br>
+	Overall, this project was not only a testament to my continuous learning and growth in web development but also a practical application of the skills I acquired through the AJAX course. It marked another step forward in my journey as a developer, equipping me with the tools and knowledge to create dynamic and user-friendly web applications. <br><br>
+	<a href="https://github.com/AdrianKotyra/AJAX-Search-database-"> check code here </a>
+
+	`,
+	link: "./websites/ajax_demo/index_custom.html",
+	img_src: "img/ajax.jpg"
+>>>>>>> 1935a1184f87991772492802fa2cd8148ac47a6b
 
 }
 
@@ -153,6 +169,7 @@ const quiz = {
 
 const ecomm = {
 	name: "Hi-Top Sneakers",
+<<<<<<< HEAD
 	text: `	<div class="centered-text"><b>Final HND ecommerce project <br>  </b>
 
 		</div>
@@ -183,6 +200,9 @@ Hi-Top Sneakers is a fully functional e-commerce platform designed for selling s
 	<a href="https://github.com/AdrianKotyra/e-commerce"> check code here </a>
 
 
+=======
+	text: `	<div class="centered-text"><b>Final HND ecommerce project (In development...)<br>  	<a href="https://github.com/AdrianKotyra/e-commerce"> check code here </a></b> </div>
+>>>>>>> 1935a1184f87991772492802fa2cd8148ac47a6b
 
 
 
@@ -278,10 +298,21 @@ bikeTrigger.addEventListener("click", ()=> {
 
 
 
+<<<<<<< HEAD
 
 const multipageTrigger = document.querySelector(".multipage-trigger");
 multipageTrigger.addEventListener("click", ()=> {
 	renderModal(multipage)
+=======
+const candleTrigger = document.querySelector(".candle-trigger");
+candleTrigger.addEventListener("click", ()=> {
+	renderModal(descriptionsPrograms[6])
+})
+
+const ajaxTrigger = document.querySelector(".ajax-trigger");
+ajaxTrigger.addEventListener("click", ()=> {
+	renderModal(ajax)
+>>>>>>> 1935a1184f87991772492802fa2cd8148ac47a6b
 })
 const splitterTrigger = document.querySelector(".splitter-trigger");
 splitterTrigger.addEventListener("click", ()=> {
